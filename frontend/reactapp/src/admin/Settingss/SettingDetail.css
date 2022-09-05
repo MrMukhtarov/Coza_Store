@@ -1,0 +1,29 @@
+.settingdetail {
+    display: flex !important;
+    margin-bottom: 50px;
+}
+.settingdetail img {
+    height: 200px;
+    width: 300px;
+}
+.settingdetail table {
+    margin-top: 100px;
+    text-align: center;
+
+}
+.settingdetail img{
+    height: auto;
+    object-fit: cover;
+    width: 40%;
+}
+.settingdetail .btn1{
+    background-color: #Fff !important;
+    color: #333;
+}
+
+.settingdetail .td{
+    margin-top: 60px;
+}
+
+
+

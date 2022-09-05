@@ -1,0 +1,30 @@
+.instagram .hovertext{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: .9s;
+    width: 90%;
+    height: 99%;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.75);
+    font-size: 15px;
+}
+.instagram .hovertext p{
+    margin-top: 80px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.instagram .hovertext span{
+    margin-left: 20px;
+}
+.instagram .imgs{
+    position: relative;
+}
+.instagram .imgs:hover .hovertext{
+    opacity: 1;
+}
+.instagram{
+    padding: 60px 0;
+}

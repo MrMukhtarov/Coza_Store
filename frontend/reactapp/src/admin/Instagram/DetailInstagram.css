@@ -1,0 +1,34 @@
+.instagramdetail {
+    display: flex !important;
+    margin-bottom: 50px;
+}
+.instagramdetail img {
+    height: 200px;
+    width: 300px;
+}
+.instagramdetail table {
+    margin-top: 40px;
+
+}
+.instagramdetail img{
+    height: auto;
+    object-fit: cover;
+    width: 40%;
+}
+.instagramdetail .btn1{
+    background-color: #Fff !important;
+    color: #333;
+}
+.instagramdetail .btn2{
+    background-color: #333 !important;
+    color: #fff;
+} 
+.instagramdetail .btndel{
+    margin-top: 50px;
+}
+.instagramdetail .td{
+    margin-top: 60px;
+}
+
+
+

@@ -1,0 +1,89 @@
+footer{
+    background-color: #222222;
+    padding: 6rem 0;
+}
+footer h4{
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 24px;
+    color: #ffffff;
+    margin-bottom: 15px;
+}
+footer a{
+    color: #b2b2b2;
+    font-size: 13px;
+    line-height: 1.923;
+    font-weight: 400;
+    text-decoration: none;
+    margin-bottom: 8px;
+    transition: .3s;
+}
+footer a:hover{
+    color: #717fe0;
+}
+footer p{
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 25px;
+    color: #b2b2b2;
+}
+footer i{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 18px;
+    color: #b2b2b2;
+    margin-right: 20px;
+    margin-top: 10px;
+    transition: .3s;
+}
+footer i:hover{
+    color: #717fe0;
+}
+
+footer .input{
+    border: none;
+    outline: none;
+    background-color: transparent;
+    border-bottom: 1px solid rgba(204,204,204,.1);
+    color: #b2b2b2;
+    transition: .5s
+}
+footer .input:focus{
+    border-bottom: 1px solid #717fe0;
+}
+footer button{
+    background-color: #717fe0;
+    color: #FFFFFF;
+    border-radius: 23px;
+    padding: 10px 40px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    margin-top: 10px;
+    transition: .5s;
+}
+footer button:hover{
+    background-color: #FFFFFF;
+    color: #717fe0;
+}
+footer .news {
+    margin-bottom: 60px;
+}
+footer .get{
+    margin-bottom: 30px;
+}
+footer .bottom .text{
+    margin-top: 50px;
+}
+footer .link{
+    color: #717fe0;
+    transition: .3s;
+}
+footer .link:hover{
+    color: #102ce6;
+}
+@media (max-width: 576px){
+    footer h4{
+        margin-top: 40px;
+    }
+}

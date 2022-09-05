@@ -1,0 +1,101 @@
+.header .logo a{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 23px;
+    color: black;
+    text-decoration: none;
+}
+.header .logo span{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 23px;
+    color: #1e1e27;
+    text-decoration: none;
+    cursor: pointer;
+}
+.header .center a{
+    color: #1e1e27;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 23px;
+    text-decoration: none;
+    margin-left: 40px;
+    transition: .3s;
+    position: relative;
+}
+.header .center a:hover{
+    color: #6c7ae0;
+}
+.header .right i{
+    margin-left: 30px;
+    transition: .3s;
+    cursor: pointer;
+    position: relative;
+    font-size: 20px;
+}
+.header .right .shp::after{
+    content: '0';
+    position: absolute;
+    bottom: 19px;
+    left: 17px;
+    border: 1px solid #717fe0;
+    background-color: #717fe0;
+    color: white;
+    font-size: 11px;
+    padding: 2px;
+
+}
+.header .right i:hover {
+    color: #6c7ae0;
+}
+.header .home{
+    color: #6c7ae0 !important;
+}
+.header .features{
+    position: relative;
+}
+.header .features::before{
+    content: 'HOT';
+    position: absolute;
+    bottom: 15px;
+    left: 45px;
+    font-size: 10px;
+    border: 1px solid #F74877;
+    border-radius: 20px;
+    padding: 0 10px;
+    color: white;
+    background-color: #F74877;
+}
+.header .ham{
+    display: none;
+}
+
+@media (max-width: 576px) {
+    .header .center{
+        display: none;
+    }
+    .header .right{
+        display: flex;
+    }
+    .header .ham{
+        display: block;
+    }
+    .header .container {
+        padding: 0 1rem !important;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+    .header .center{
+        display: none;
+    }
+    .header .right{
+        display: flex;
+    }
+    .header .ham{
+        display: block;
+    }
+    .header .container {
+        padding: 0 1rem !important;
+    }
+}

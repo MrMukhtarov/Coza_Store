@@ -1,0 +1,38 @@
+#second {
+    padding: 5rem 0;
+}
+#second .img1{
+    position: relative;
+}
+#second .all{
+    display: flex;
+    flex-wrap: nowrap;
+}
+#second .photo{
+    border: 1px solid #E6E6E6;
+}
+#second .span1{
+    font-weight: 800;
+    font-size: 28px;
+    line-height: 31px;
+    color: black;
+    margin-bottom: 15px;
+}
+#second .textcat{
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  text-align: center;
+}
+#second a{
+  background-color: #fff;
+  color: black;
+  padding: 15px 30px;
+  transition: .3s;
+  font-size: 15px;
+}
+#second a:hover{
+  background-color: black;
+  color: #fff;
+}

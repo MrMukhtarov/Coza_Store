@@ -1,0 +1,57 @@
+.timers{
+    background-color: #F2F2F2;
+    padding: 60px;
+}
+.timers .img1{
+    object-fit: cover;
+    width: 550px;
+    height: 70vh;
+}
+.timers h2 {
+    font-size: 30px;
+    font-weight: bold;
+    padding: 3rem;
+    text-align: center;
+    color: #555555;
+    font-family: monospace;
+
+}
+.timers .coming-soon {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.timers .countdown{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+.timers .day, .hour, .minute, .second {
+    font-size: 3rem;
+}
+.timers .waiting {
+    width: 300px;
+    height: 250px;
+    object-fit: cover;
+    margin-bottom: 300px;
+}
+.timers .time{
+    padding: 20px 40px;
+    margin-bottom: 250px;
+    border: 1px solid grey;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.timers .timer{
+    font-size: 20px !important;
+}
+.timers .time span{
+    font-size: 50px;
+    color: #555555;
+}
+.timers .right{
+    width: 550px;
+    height: 70vh;
+}
