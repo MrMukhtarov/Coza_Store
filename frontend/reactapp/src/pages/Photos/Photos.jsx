@@ -17,12 +17,12 @@ const Photos = () => {
     <div>
         <section id="second">
       <div className="container">
-        <div className="row all justify-content-between align-items-center">
+        <div className="all">
             <div className="row justify-content-between">
             {photos && photos.slice(0,3).map((photoss) => (
-                <div className="col-lg-4">
+                <div className="col-lg-4 allphoto">
                    <div className="img1">
-                    <img className='img-fluid photo' src={photoss.image} alt="" />
+                    <img className='img-fluid photo mb-3' src={photoss.image} alt="" />
                     <div className="textcat">
                         <a href="/">Shop Now</a>
                     </div>

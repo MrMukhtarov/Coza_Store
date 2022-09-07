@@ -20,8 +20,8 @@ console.log(slider);
          <div id="carouselExampleControls" className="carousel slide homeslider" data-bs-ride="carousel">
          <div className="carousel-inner">
          {slider.map((sliderss) => (
-           <div className="carousel-item active">
-             <img src={sliderss.image} className="d-block w-100 img" alt="adada"/>
+           <div className="carousel-item active imgs">
+             <img src={sliderss.image} className="d-block w-100 img img-fluid" alt="adada"/>
              <div className="pictureText">
                <span className='span'>{sliderss.title}</span>
                <h2 className='h2'>{sliderss.description}</h2>

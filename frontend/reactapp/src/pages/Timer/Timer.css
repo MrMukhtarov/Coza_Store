@@ -55,3 +55,9 @@
     width: 550px;
     height: 70vh;
 }
+
+@media (max-width: 576px) {
+    .timers .time{
+        width: 265px;
+    }
+}

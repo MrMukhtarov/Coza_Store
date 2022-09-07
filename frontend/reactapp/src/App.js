@@ -23,6 +23,7 @@ import SideBarDropDown from './components/SidebarDropdown/SideBarDropDown';
 import AddSlider from './admin/Slider/AddSlider';
 import UpdateSlider from './admin/Slider/UpdateSlider.jsx'
 import SliderDetail from './admin/Slider/SliderDetail.jsx'
+import About from './pages/About/About';
 
 function App() {
   
@@ -53,6 +54,7 @@ function App() {
             <Route path='/settingdetail' element={<SettingsDetail/>}/>
             <Route path='/updatesetting/:id' element={<SettingsUpdate/>}/>
             <Route path='/sidebarnav' element={<SideBarDropDown/>}/>
+            <Route path='/about' element={<About/>}/>
         </Routes>
         <Footer/>
       </BrowserRouter>

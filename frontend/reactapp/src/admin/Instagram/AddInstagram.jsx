@@ -35,7 +35,7 @@ const AddInstagram = () => {
     }
     
   return (
-    <div className='row justify-content-center'>
+    <div className='row col-lg-12 justify-content-center'>
         <div className='col-lg-2'>
         <SideBarDropDown/>
         </div>

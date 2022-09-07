@@ -1,6 +1,6 @@
 import axios from 'axios';
 import React, { useEffect, useState } from 'react'
-import { useLocation } from 'react-router-dom';
+import { NavLink, useLocation } from 'react-router-dom';
 import './Header.css'
 
 
@@ -35,7 +35,7 @@ useEffect(() => {
         <div className="row py-4 justify-content-between align-items-center">
             <div className="col-lg-2 col-5 logo col-sm-4 col-md-2">
                 {logo && logo.slice(0,1).map((logos) => (
-                <img className='img-fluid' src={logos.logo} alt="" />
+                <NavLink to={'/'}><img className='img-fluid' src={logos.logo} alt="logo" /></NavLink>
                 ))}
             </div>
             <div className="col-lg-6 text-end center">
@@ -43,9 +43,8 @@ useEffect(() => {
                 <a href="/">SHOP</a>
                 <a href="/" className='features'>FEATURES</a>
                 <a href="/">BLOG</a>
-                <a href='/'>About</a>
-                <a href='/'>Contact</a>
-
+                <NavLink to='/about'>ABOUT</NavLink>
+                <a href='/'>CONTACT</a>
             </div>
             <div className="col-lg-3 col-5 right text-end col-md-3 justify-content-between col-sm-3">
                 <i className="fa-solid fa-cart-shopping shp"></i>

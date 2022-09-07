@@ -43,3 +43,32 @@
     text-decoration: none;
     color: #fff;
 }
+
+@media (max-width: 576px) {
+    .modal img {
+        width: 340px !important;
+        height: 60vh;
+        object-fit: cover;
+    }
+    .modal .btns{
+        height: 30px;
+        margin-top: 50px;
+        margin-left: 20px
+    }
+    .modal .btn{
+        width: 100px;
+        margin-top: 60px;
+        font-size: 10px;
+    }
+    .modal .btn1{
+        width: 100px;
+        margin-top: 30px;
+        font-size: 9px;
+    }
+    .modal .p{
+        display: none !important;
+    }
+    .modal p{
+        margin-top: 30px !important
+    }
+}
