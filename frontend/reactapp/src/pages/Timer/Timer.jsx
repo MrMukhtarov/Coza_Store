@@ -16,15 +16,15 @@ const Timer = () => {
   return (
     <div className='timers'>
        <div className="container">
-            <div className="row justify-content-between">
-                <div className="left col-lg-5">
+            <div className="row justify-content-between all">
+                <div className="left col-lg-5 sm-12">
                     <img className='img-fluid img1' src={timer} alt="" />
                 </div>
                 <div className="right col-lg-6 text-end bg-light">
                     <section className='coming-soon'>
                         <div>
                             <h2>We are opening up soon!</h2>
-                            <div className="countdown col-12">
+                            <div className="countdown col-12 ">
                                 <div title='timer' className='time col-12'>
                                     <span className='timer'>{`${days} : `}</span>
                                     <span className='timer'>{`0${hours} :  `}</span>

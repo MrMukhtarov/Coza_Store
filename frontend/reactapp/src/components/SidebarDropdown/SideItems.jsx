@@ -41,7 +41,7 @@ const nameStyle={
 
 const sideItemStyle = {
     height: 'auto',
-    minHeight: "50px",
+    minHeight: "70px",
     width: "259px",
     color: "#fff",
     display: "flex",

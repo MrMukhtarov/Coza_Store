@@ -21,8 +21,6 @@ const UpdateProduct = () => {
             fetchHandler();
     }, [id])
 
-    console.log(inputs);
-
     const handleSubmit = (e) => {
         e.preventDefault();
         sendRequest();

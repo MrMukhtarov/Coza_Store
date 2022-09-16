@@ -71,3 +71,23 @@
     }
     
 }
+
+@media(max-width : 992px) and (min-width:576px) {
+    .homeslider .imgs img{
+        object-fit: cover !important;
+        height: 50vh !important;
+    }
+    .homeslider .span{
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 36px;
+        color: #333333;
+    }
+    .homeslider .h2{
+        font-weight: 800;
+        font-size: 20px;
+        color: #333333;
+        margin-bottom: 40px;
+        margin-top: 25px;
+    }
+}

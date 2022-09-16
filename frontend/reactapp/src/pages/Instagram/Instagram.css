@@ -28,3 +28,42 @@
 .instagram{
     padding: 60px;
 }
+
+@media(max-width: 576px) {
+    .instagram .bottom .hovertext{
+        place-items: center;
+        padding: 25px 30px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        opacity: 0;
+        transition: .9s;
+        width: 92%;
+        height: 99%;
+        color: white;
+        background-color: rgba(0, 0, 0, 0.75);
+        font-size: 15px;
+    }
+    .instagram .bottom .hovertext p{
+        margin-bottom: 30px;
+        font-size: 20px;
+    }
+    .instagram .bottom .hovertext span{
+        font-size: 15px;
+    }
+}
+
+@media(max-width : 992px) and (min-width:576px){
+    .instagram .bottom .hovertext{
+        place-items: center;
+        padding: 330px 130px;
+    }
+    .instagram .bottom .hovertext p{
+        margin-bottom: 30px;
+        font-size: 35px;
+    }
+    .instagram .bottom .hovertext span{
+        font-size: 25px;
+    }
+}

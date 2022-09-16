@@ -1,0 +1,117 @@
+.contact-top{
+    background-image: url('https://static.pullandbear.net/2/photos//2022/I/0/2/p/8246/580/800/02/8246580800_6_1_8.jpg?t=1657544230405&imwidth=750');
+    padding: 5rem 0;
+    background-position: center;
+    background-size: cover;
+}
+.contact-top .title{
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 55px;
+    color: #fff !important;
+}
+#contact .contact-body h4{
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    color: #333;
+    text-align: center;
+    margin-bottom: 30px;
+}
+#contact .contact-body .left {
+    border: 1px solid #74737321;
+    padding: 3rem;
+}
+#contact .contact-body .email input{
+    outline: none;
+    background-color: transparent;
+    border-bottom: none;
+}
+#contact .contact-body .email{
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 22px;
+    color: #333;
+    margin-bottom: 30px;
+    border: 1px solid #74737321;
+}
+#contact .contact-body textarea{
+    background-color: #ffffff;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 22px;
+    background-color: transparent;
+    color: #333;
+    margin-bottom: 30px;
+    outline: none;
+    border: 1px solid #74737321;
+}
+#contact .contact-body .btns{
+    display: flex;
+    justify-content: center;
+}
+#contact .contact-body .btn{
+    padding: 10px 200px;
+    background-color: black;
+    border-radius: 50px;
+    color: #fff;
+    transition: .5s;
+}
+#contact .contact-body .btn:hover{
+    color: black;
+    background-color: #ffffff;
+}
+#contact .adress{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 18px;
+    color: #333;
+    display: flex;
+    margin-bottom: 30px;
+}
+#contact .phone{
+    display: flex;
+    margin-bottom: 30px;
+}
+#contact .mail {
+    display: flex;
+}
+#contact span{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #333;
+}
+#contact p{
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    color: #666;
+    margin-top: 25px;
+}
+#contact i{
+    color: #666;
+    margin-right: 20px;
+}
+#contact .right{
+    padding: 110px 140px 160px 140px;
+    border: 1px solid #74737321;
+}
+#contact {
+    background-color: #ffffff;
+}
+#contact .phone p {
+    color: #717FE0;
+}
+#contact .mail p {
+    color: #717FE0;
+}
+@media (max-width: 576px) {
+    #contact .contact-body .btn{
+        margin: auto;
+        padding: 10px 120px;
+    }
+    #contact .contact-body .right{
+        padding: 30px 50px;
+    }
+}

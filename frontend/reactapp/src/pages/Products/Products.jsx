@@ -1,13 +1,12 @@
-import axios from 'axios'
 import React, { useEffect, useState } from 'react'
 import { NavLink } from 'react-router-dom'
 import './Products.css'
 import Modal from '../Modal/Modal'
+import axios from 'axios'
 
+const Products = ({prod}) => {
 
-const Products = () => {
-
-    const [cards , setCards] = useState([])
+  const [cards , setCards] = useState([])
 
     useEffect(() => {
         axios.get('http://localhost:3002/card')
@@ -59,6 +58,35 @@ const Products = () => {
     </div>
     </>
   )
+
+  // const {image, name , price} = prod
+
+  //     const [model, serModel] = useState(false)
+  //     const [tempdata, setTempData] = useState([])
+
+  //     const getData = (image,name,price) => {
+  //       let tempData = [image, name,price]
+  //       setTempData(item => [1, ...tempData])
+  //       return serModel(true)
+  //     }
+
+  // return (
+  //   <div className='products'>
+  //     <div className="imgs">
+  //       <img className='img-fluid' src={image} alt={name} />
+  //     </div>
+  //       <div className='productDesc row'>
+  //           <a href='/' className='name' style={{fontWeight:700}}>{name}</a>
+  //           <span className='price'>{price} AZN</span>
+  //       </div>
+  //       {/* <div className="btn"> */}
+  //         <NavLink className='view' to='/' onClick={() => getData(image, name, price)}>Quick View</NavLink>
+  //       {/* </div> */}
+  //       {
+  //         model === true ? <Modal image={tempdata[1]} name={tempdata[2]} price={tempdata[3]} prod={prod} hide={() => serModel(false)}/> : ''
+  //       }
+  //   </div>
+  // )
 }
 
 export default Products

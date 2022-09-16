@@ -24,11 +24,15 @@ import AddSlider from './admin/Slider/AddSlider';
 import UpdateSlider from './admin/Slider/UpdateSlider.jsx'
 import SliderDetail from './admin/Slider/SliderDetail.jsx'
 import About from './pages/About/About';
+import Contact from './pages/Contact/Contact';
+import ContactDetail from './admin/Contact/ContactDetail';
+import ContactUpdate from './admin/Contact/ContactUpdate';
+import MessageDetail from './admin/Message/MessageDetail';
+import Basket from './pages/Basket/Basket';
 
 function App() {
-  
+
   return (
-    
     <div className="App">
       <BrowserRouter>
         <Header/>
@@ -55,6 +59,11 @@ function App() {
             <Route path='/updatesetting/:id' element={<SettingsUpdate/>}/>
             <Route path='/sidebarnav' element={<SideBarDropDown/>}/>
             <Route path='/about' element={<About/>}/>
+            <Route path='/contact' element={<Contact/>}/>
+            <Route path='/contactdetail' element={<ContactDetail/>}/>
+            <Route path='/contactupdate/:id' element={<ContactUpdate/>}/>
+            <Route path='/messagedetail' element={<MessageDetail/>}/>
+            <Route path='/basket' element={<Basket/>}/>
         </Routes>
         <Footer/>
       </BrowserRouter>

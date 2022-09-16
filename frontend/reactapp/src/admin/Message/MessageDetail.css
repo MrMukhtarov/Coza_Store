@@ -1,0 +1,33 @@
+.messagedetail {
+  display: flex !important;
+  margin-bottom: 50px;
+}
+.messagedetail img {
+  height: 200px;
+  width: 300px;
+}
+.messagedetail table {
+  margin-top: 40px;
+}
+.messagedetail img{
+  height: auto;
+  object-fit: cover;
+  width: 40%;
+}
+.messagedetail .btn1{
+  background-color: #Fff !important;
+  color: #333;
+}
+.messagedetail .btn2{
+  background-color: #333 !important;
+  color: #fff;
+} 
+.messagedetail .btndel{
+  margin-top: 50px;
+}
+.messagedetail .td{
+  margin-top: 60px;
+}
+
+
+

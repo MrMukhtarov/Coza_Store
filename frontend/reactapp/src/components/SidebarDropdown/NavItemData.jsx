@@ -39,4 +39,16 @@ export const NavItems = [
 ],
     open: false,
 },
+{ name: "Contact", 
+    links: [
+        {title: 'Contact Detail', to: '/contactdetail'},
+],
+    open: false,
+},
+{ name: "Message", 
+    links: [
+        {title: 'Message Detail', to: '/messagedetail'},
+],
+    open: false,
+},
 ]

@@ -8,20 +8,33 @@ const phototoute = require('./routes/Photos-Routes')
 const settingroute = require('./routes/Settings-Routes')
 const sliderroute = require('./routes/Slider-Routes')
 const logoroute = require('./routes/Logo-Routes')
+const messageroute = require('./routes/Message-Routes')
+const contactroute = require('./routes/Contact-Routes')
+const cookieParser = require("cookie-parser")
 
 const app = express();
 
-app.use(cors())
+// app.use(cors({credentials: true, origin: 'http://localhost:3002'}));
+const corsConfig = {
+    credentials: true,
+    origin: true,
+};
+app.use(cors(corsConfig));
+
+// app.use(cors())
 app.use(express.json())
+app.use(cookieParser())
 app.use('/card', cardroute)
 app.use('/instagram', instaroute)
 app.use('/photo', phototoute)
 app.use('/setting', settingroute)
 app.use('/slider', sliderroute)
 app.use('/logo', logoroute)
+app.use('/message', messageroute)
+app.use('/contact', contactroute)
 
 
-mongoose.connect('mongodb+srv://Nijat:gXIlfSzMfJdpsrxd@cluster0.7gksg.mongodb.net/FinalProjectDB?retryWrites=true&w=majority')
+mongoose.connect(`mongodb+srv://Nijat:gXIlfSzMfJdpsrxd@cluster0.7gksg.mongodb.net/FinalProjectDB?retryWrites=true&w=majority`)
 .then(() => console.log('Connect Database...!'))
 .then(() => {
     app.listen(port)

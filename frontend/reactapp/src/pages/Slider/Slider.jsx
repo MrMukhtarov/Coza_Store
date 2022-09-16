@@ -13,7 +13,6 @@ useEffect(() => {
     .then(res => setSlider(res.data.sliders)) 
     .catch(error => console.log(error))
 } , [])
-console.log(slider);
 
   return (
     <div>

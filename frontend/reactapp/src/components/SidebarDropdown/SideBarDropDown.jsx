@@ -30,7 +30,6 @@ const headerStyle={
     padding:"0px 20px",
     color:"#fff",
     marginTop: "25px",
-    marginBottom: "25px",
     textAlign : "center",
     cursor: "pointer",
     fontSize: "35px"

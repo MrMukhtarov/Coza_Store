@@ -1,11 +1,15 @@
-import React, { useEffect, useState } from 'react'
+import React, { useContext, useEffect, useState } from 'react'
 import axios from 'axios'
 import './Modal.css'
 import { NavLink } from 'react-router-dom'
+import { Cart } from '../../Context/CardContext'
 
-const Modal = ({hide,name,image,price}) => {
+const Modal = ({hide,name,image,price,prod}) => {
 
     const [cards , setCards] = useState([])
+
+  const {cart,setCart} = useContext(Cart)
+
 
     useEffect(() => {
         axios.get('http://localhost:3002/card')
@@ -37,12 +41,26 @@ const Modal = ({hide,name,image,price}) => {
                   <p className='p'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Pariatur, sequi!</p>
                  </div>
                  <div className="btns col-12">
-                    <div className="btn col-6">
-                        <NavLink to='/'>ADD TO CARD</NavLink>
-                      </div>
                       <div className='btn1 col-6'>
                       <NavLink to='/'>READ MORE</NavLink>
                       </div>
+                      {cart.includes(prod)?(
+                        <button 
+                        className='remove btn col-6 text-white' 
+                        onClick={()=>{
+                            setCart(cart.filter((c)=>c._id !==prod._id))
+                        }}
+                        >Remove From Cart
+                        </button>
+                        ):(
+                        <button 
+                        className='add btn col-6' 
+                        onClick={()=>{
+                            setCart([...cart,prod])
+                        }}
+                        >Add To Cart
+                        </button>
+                        )}
                  </div>
                 </div>
               </div>

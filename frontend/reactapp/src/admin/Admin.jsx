@@ -5,12 +5,12 @@ import SideBarDropDown from '../components/SidebarDropdown/SideBarDropDown'
 
 const Admin = () => {
   return (
-    <div className='row admin'>
+    <div className='admin'>
       <div className="col-lg-2">
         <SideBarDropDown/>
       </div>
       <div className="col-lg-10 text-end">
-        <img className='png img-fluid ms-4' src={png} alt="" />
+        <img className='png img-fluid' src={png} alt="admin" />
       </div>
         
     </div>

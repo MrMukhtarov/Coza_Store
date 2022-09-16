@@ -28,6 +28,9 @@ useEffect(() => {
     if(pathname === '/instagramdetail') return null;
     if(pathname === '/logodetail') return null;
     if(pathname === '/settingdetail') return null;
+    if(pathname === '/contactdetail') return null;
+    if(pathname === '/messagedetail') return null;
+
   return (
     <footer>
         <div className="container">

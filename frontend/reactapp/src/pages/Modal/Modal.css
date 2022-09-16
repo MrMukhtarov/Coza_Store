@@ -1,9 +1,15 @@
+.modal{
+    z-index: 4444444444;
+}
 .modal img{
     width: 250px !important;
 }
 .modal .title{
     text-align: center !important;
     width: 100%;
+}
+.modal .btn:hover{
+    color: white;
 }
 .modal .btn {
     position: absolute;
@@ -18,11 +24,13 @@
     padding: 9px 10px;
     font-size: 14px;
     width: 30%;
+    color: white;
+    margin-left: 21px;
 
 }
 .modal .btn a{
     text-decoration: none;
-    color: #fff;
+    color: #fff !important;
 }
 
 .modal .btn1 {
@@ -38,6 +46,7 @@
     transition: .3s;
     padding: 9px 22px;
     width: 30%;
+    margin-left: 21px
 }
 .modal .btn1 a{
     text-decoration: none;

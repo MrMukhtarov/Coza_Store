@@ -1,0 +1,31 @@
+.basket .remove{
+    color: white;
+    margin: auto;
+    background-color: black;
+    padding: 8px 20px;
+    margin-bottom: 0px;
+    font-size: 10px;
+    border-radius: 20px;
+    /* margin-left: 90px; */
+}
+.basket img{
+    width: 60px;
+}
+.basket tbody{
+    margin-bottom: 20px;
+}
+.basket tbody{
+    padding: 10rem;
+}
+.basket{
+    background-color: white;
+}
+
+.basket .tddiv{
+    display: flex !important;
+    align-items: center !important;
+    justify-content: space-between;
+}
+.basket .left {
+    border: 1px solid rgba(247, 243, 243, 0.137);
+}

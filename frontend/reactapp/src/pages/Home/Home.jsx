@@ -5,9 +5,12 @@ import Products from '../Products/Products'
 import Slider from '../Slider/Slider'
 import Timer from '../Timer/Timer'
 import "./Home.css"
+import '../Products/Products.css'
 
 const Home = () => {
+
   return (
+
     <div>
         <Slider/>
         <Photos/>
@@ -15,6 +18,7 @@ const Home = () => {
         <Timer/>
         <Instagram/>
     </div>
+    
   )
 }
 
