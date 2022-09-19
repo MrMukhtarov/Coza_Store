@@ -36,8 +36,6 @@ useEffect(() => {
     if(pathname === '/addfaq') return null;
     if(pathname === '/faqdetail') return null;
 
-
-
   return (
     <header className='header'>
         <div className="container">
@@ -47,7 +45,7 @@ useEffect(() => {
                 <NavLink to={'/'}><img className='img-fluid' src={logos.logo} alt="logo" /></NavLink>
                 ))}
             </div>
-            <div className="col-lg-7 text-end center">
+            <div className="col-lg-6 text-end center">
                 <NavLink to="/">HOME</NavLink>
                 <NavLink to="/shop">SHOP</NavLink>
                 <a href="/" className='features'>FEATURES</a>
@@ -55,7 +53,7 @@ useEffect(() => {
                 <NavLink to='/about'>ABOUT</NavLink>
                 <NavLink to='/contact'>CONTACT</NavLink>
             </div>
-            <div className="col-lg-3 col-5 right text-end col-md-3 justify-content-between col-sm-3">
+            <div className="col-lg-3 col-6 right text-end col-md-3 justify-content-between col-sm-3">
               <NavLink to='/basket'>
                 <i className="fa-solid fa-cart-shopping shp"><span className='zero'>{cart.length}</span></i>
               </NavLink>

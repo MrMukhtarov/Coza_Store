@@ -55,7 +55,6 @@ export const NavItems = [
     links: [
         {title: 'Add FAQs', to: '/addfaq'},
         {title: 'FAQs Detail', to: '/faqdetail'},
-        {title: 'Update FAQs', to: '/updatefaq/:id'},
 ],
     open: false,
 },

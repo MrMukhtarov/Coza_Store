@@ -33,12 +33,13 @@ import FAQs from './pages/FAQs/FAQs';
 import AddFAQs from './admin/FAQs/AddFAQs';
 import FAQsDetail from './admin/FAQs/FAQsDetail';
 import FAQsUpdate from './admin/FAQs/FAQsUpdate';
+import ScrollTop from './components/Scrolltop/ScrollTop';
 
 function App() {
-
   return (
     <div className="App">
       <BrowserRouter>
+      <ScrollTop>
         <Header/>
         <Routes>
             <Route path='/' element={<Home/>} exact/>
@@ -74,6 +75,7 @@ function App() {
             <Route path='/updatefaq/:id' element={<FAQsUpdate/>}/>
         </Routes>
         <Footer/>
+        </ScrollTop>
       </BrowserRouter>
     </div>
   );

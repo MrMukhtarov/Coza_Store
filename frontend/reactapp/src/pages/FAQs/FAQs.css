@@ -3,9 +3,7 @@
 .FAQs{
     font-family: 'Open Sans', sans-serif;
     padding: 2rem 0;
-}
-.FAQs header{
-    z-index: -1;
+    margin-top: 30px
 }
 .FAQs #return{
     color: #1f1f1f;
@@ -43,7 +41,7 @@
     font: 600 16px Open Sans,sans-serif;
     -webkit-tap-highlight-color: rgba(0,0,0,0);
     font-weight: 600;
-    z-index: 5555555555;
+    z-index: 5555555555 !important;
 }
 .FAQs p{
     color: #1f1f1f;
