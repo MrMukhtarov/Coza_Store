@@ -1,0 +1,34 @@
+.faqdetail {
+    display: flex !important;
+    margin-bottom: 50px;
+}
+.faqdetail img {
+    height: 200px;
+    width: 300px;
+}
+.faqdetail table {
+    margin-top: 40px;
+
+}
+.faqdetail img{
+    height: auto;
+    object-fit: cover;
+    width: 40%;
+}
+.faqdetail .btn1{
+    background-color: #Fff !important;
+    color: #333;
+}
+.faqdetail .btn2{
+    background-color: #333 !important;
+    color: #fff;
+} 
+.faqdetail .btndel{
+    margin-top: 50px;
+}
+.faqdetail .td{
+    margin-top: 60px;
+}
+
+
+

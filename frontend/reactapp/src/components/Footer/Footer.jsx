@@ -1,6 +1,6 @@
 import axios from 'axios';
 import React, { useEffect, useState } from 'react'
-import { useLocation } from 'react-router-dom';
+import { NavLink, useLocation } from 'react-router-dom';
 import './Footer.css'
 
 const Footer = () => {
@@ -30,6 +30,9 @@ useEffect(() => {
     if(pathname === '/settingdetail') return null;
     if(pathname === '/contactdetail') return null;
     if(pathname === '/messagedetail') return null;
+    if(pathname === '/addfaq') return null;
+    if(pathname === '/faqdetail') return null;
+    
 
   return (
     <footer>
@@ -51,7 +54,7 @@ useEffect(() => {
                             <a href="/">Track Order</a>
                             <a href="/">Returns</a>
                             <a href="/">Shipping</a>
-                            <a href="/">FaQs</a>
+                            <NavLink to="/faq">FaQs</NavLink>
                         </div>
                     </div>
                     <div className="col-lg-4 touch">

@@ -11,7 +11,6 @@ const Instagram = () => {
       .then(res => setInstagram(res.data.instagram)) 
       .catch(error => console.log(error))
   } , [])
-  console.log(instagram);
 
   return (
     <div className="instagram">

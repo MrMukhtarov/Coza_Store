@@ -33,6 +33,10 @@ useEffect(() => {
     if(pathname === `/updateslider/`) return null;
     if(pathname === '/contactdetail') return null;
     if(pathname === '/messagedetail') return null;
+    if(pathname === '/addfaq') return null;
+    if(pathname === '/faqdetail') return null;
+
+
 
   return (
     <header className='header'>
@@ -44,8 +48,8 @@ useEffect(() => {
                 ))}
             </div>
             <div className="col-lg-7 text-end center">
-                <a href="/">HOME</a>
-                <a href="/">SHOP</a>
+                <NavLink to="/">HOME</NavLink>
+                <NavLink to="/shop">SHOP</NavLink>
                 <a href="/" className='features'>FEATURES</a>
                 <a href="/">BLOG</a>
                 <NavLink to='/about'>ABOUT</NavLink>

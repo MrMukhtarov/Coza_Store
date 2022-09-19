@@ -29,6 +29,10 @@ import ContactDetail from './admin/Contact/ContactDetail';
 import ContactUpdate from './admin/Contact/ContactUpdate';
 import MessageDetail from './admin/Message/MessageDetail';
 import Basket from './pages/Basket/Basket';
+import FAQs from './pages/FAQs/FAQs';
+import AddFAQs from './admin/FAQs/AddFAQs';
+import FAQsDetail from './admin/FAQs/FAQsDetail';
+import FAQsUpdate from './admin/FAQs/FAQsUpdate';
 
 function App() {
 
@@ -64,6 +68,10 @@ function App() {
             <Route path='/contactupdate/:id' element={<ContactUpdate/>}/>
             <Route path='/messagedetail' element={<MessageDetail/>}/>
             <Route path='/basket' element={<Basket/>}/>
+            <Route path='/faq' element={<FAQs/>}/>
+            <Route path='/addfaq' element={<AddFAQs/>}/>
+            <Route path='/faqdetail' element={<FAQsDetail/>}/>
+            <Route path='/updatefaq/:id' element={<FAQsUpdate/>}/>
         </Routes>
         <Footer/>
       </BrowserRouter>

@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+.FAQs{
+    font-family: 'Open Sans', sans-serif;
+    padding: 2rem 0;
+}
+.FAQs header{
+    z-index: -1;
+}
+.FAQs #return{
+    color: #1f1f1f;
+    font: 400 28px Open Sans,sans-serif;
+    margin: 0 auto 16px;
+    margin-top: 30px;
+}
+.FAQs .second{
+    color: #1f1f1f;
+    font: 600 16px Open Sans,sans-serif;
+    font-weight: 400;
+}
+.FAQs li a{
+    color: #1f1f1f;
+    color: #003953;
+    cursor: pointer;
+    line-height: 1.5;
+    font: 400 14px Open Sans,sans-serif;
+    text-decoration: underline;
+    -webkit-tap-highlight-color: rgba(255,255,255,0);
+    transition: .3s;
+    font-weight: 300;
+}
+.FAQs li a:hover{
+    color: #1f1f1f;
+}
+
+.FAQs .a{
+    font-weight: 300;
+    font-size: 21px;
+    line-height: 28px;
+}
+.FAQs .question{
+    color: #1f1f1f;
+    font: 600 16px Open Sans,sans-serif;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    font-weight: 600;
+    z-index: 5555555555;
+}
+.FAQs p{
+    color: #1f1f1f;
+    line-height: 1.5;
+    font: 400 14px Open Sans,sans-serif;
+    margin-bottom: 16px;
+    margin-left: 30px;
+}
+.FAQs .rtrn{
+    color: #1f1f1f;
+    color: #003953;
+    cursor: pointer;
+    line-height: 1.5;
+    font: 400 14px Open Sans,sans-serif;
+    text-decoration: underline;
+    -webkit-tap-highlight-color: rgba(255,255,255,0);
+    transition: .3s;
+} 
+.FAQs .rtrn:hover{
+    color: #1f1f1f;
+}
+.FAQs .asnwer{
+    margin-top: 30px;
+}

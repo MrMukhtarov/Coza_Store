@@ -11,6 +11,7 @@ const logoroute = require('./routes/Logo-Routes')
 const messageroute = require('./routes/Message-Routes')
 const contactroute = require('./routes/Contact-Routes')
 const cookieParser = require("cookie-parser")
+const FAQsroute = require('./routes/FAQs-Routes')
 
 const app = express();
 
@@ -32,6 +33,7 @@ app.use('/slider', sliderroute)
 app.use('/logo', logoroute)
 app.use('/message', messageroute)
 app.use('/contact', contactroute)
+app.use('/faq', FAQsroute)
 
 
 mongoose.connect(`mongodb+srv://Nijat:gXIlfSzMfJdpsrxd@cluster0.7gksg.mongodb.net/FinalProjectDB?retryWrites=true&w=majority`)
