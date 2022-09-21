@@ -683,3 +683,141 @@ frontend\reactapp\src\pages\Slider\Slider.jsx, code is 40, comment is 0, blank i
 frontend\reactapp\src\pages\Timer\Timer.css, code is 70, comment is 4, blank is 2.
 frontend\reactapp\src\pages\Timer\Timer.jsx, code is 39, comment is 0, blank is 5.
 ===============================================================================
+===============================================================================
+EXTENSION NAME : linecount
+EXTENSION VERSION : 0.1.7
+-------------------------------------------------------------------------------
+count time : 2022-09-20 10:36:15
+count workspace : c:\Users\hp\Desktop\Final
+total files : 126
+total code lines : 37716
+total comment lines : 83
+total blank lines : 626
+
+Backend\app.js, code is 37, comment is 3, blank is 5.
+Backend\controller\Card-Controller.js, code is 93, comment is 0, blank is 6.
+Backend\controller\Contact-Controller.js, code is 55, comment is 0, blank is 5.
+Backend\controller\FAQ-Controller.js, code is 93, comment is 0, blank is 6.
+Backend\controller\Instagram-Controller.js, code is 93, comment is 0, blank is 6.
+Backend\controller\Logo-Controller.js, code is 53, comment is 0, blank is 5.
+Backend\controller\Message-Controller.js, code is 69, comment is 0, blank is 7.
+Backend\controller\Photos-Controller.js, code is 89, comment is 0, blank is 6.
+Backend\controller\Setting-Controller.js, code is 73, comment is 0, blank is 6.
+Backend\controller\Slider-Controller.js, code is 93, comment is 0, blank is 6.
+Backend\model\Card-Model.js, code is 16, comment is 0, blank is 3.
+Backend\model\Contact-Model.js, code is 16, comment is 0, blank is 3.
+Backend\model\Faq-Model.js, code is 16, comment is 0, blank is 2.
+Backend\model\instagram-Model.js, code is 16, comment is 0, blank is 3.
+Backend\model\Logo_model.js, code is 8, comment is 0, blank is 3.
+Backend\model\Message-Model.js, code is 12, comment is 0, blank is 3.
+Backend\model\Photos-Model.js, code is 8, comment is 0, blank is 3.
+Backend\model\Settings-Model.js, code is 20, comment is 0, blank is 3.
+Backend\model\Slider-Model.js, code is 16, comment is 0, blank is 2.
+Backend\package-lock.json, code is 2476, comment is 0, blank is 1.
+Backend\package.json, code is 24, comment is 0, blank is 0.
+Backend\routes\Card-Router.js, code is 9, comment is 0, blank is 5.
+Backend\routes\Contact-Routes.js, code is 7, comment is 0, blank is 5.
+Backend\routes\FAQs-Routes.js, code is 9, comment is 0, blank is 2.
+Backend\routes\Instagram-Router.js, code is 9, comment is 0, blank is 5.
+Backend\routes\Logo-Routes.js, code is 7, comment is 0, blank is 3.
+Backend\routes\Message-Routes.js, code is 8, comment is 0, blank is 3.
+Backend\routes\Photos-Routes.js, code is 9, comment is 0, blank is 5.
+Backend\routes\Settings-Routes.js, code is 8, comment is 0, blank is 2.
+Backend\routes\Slider-Routes.js, code is 9, comment is 0, blank is 2.
+frontend\reactapp\.gitignore, code is 18, comment is 1, blank is 5.
+frontend\reactapp\package-lock.json, code is 30107, comment is 0, blank is 2.
+frontend\reactapp\package.json, code is 52, comment is 0, blank is 3.
+frontend\reactapp\public\index.html, code is 24, comment is 0, blank is 0.
+frontend\reactapp\README.md, code is 21, comment is 4, blank is 15.
+frontend\reactapp\src\admin\Admin.css, code is 5, comment is 0, blank is 0.
+frontend\reactapp\src\admin\Admin.jsx, code is 17, comment is 0, blank is 3.
+frontend\reactapp\src\admin\Contact\ContactDetail.css, code is 22, comment is 0, blank is 3.
+frontend\reactapp\src\admin\Contact\ContactDetail.jsx, code is 41, comment is 1, blank is 7.
+frontend\reactapp\src\admin\Contact\ContactUpdate.css, code is 52, comment is 0, blank is 6.
+frontend\reactapp\src\admin\Contact\ContactUpdate.jsx, code is 56, comment is 2, blank is 13.
+frontend\reactapp\src\admin\FAQs\AddFAQs.css, code is 52, comment is 0, blank is 7.
+frontend\reactapp\src\admin\FAQs\AddFAQs.jsx, code is 49, comment is 0, blank is 8.
+frontend\reactapp\src\admin\FAQs\FAQsDetail.css, code is 30, comment is 0, blank is 4.
+frontend\reactapp\src\admin\FAQs\FAQsDetail.jsx, code is 46, comment is 2, blank is 7.
+frontend\reactapp\src\admin\FAQs\FAQsUpdate.css, code is 52, comment is 0, blank is 6.
+frontend\reactapp\src\admin\FAQs\FAQsUpdate.jsx, code is 56, comment is 2, blank is 10.
+frontend\reactapp\src\admin\Instagram\AddInstagram.css, code is 52, comment is 0, blank is 6.
+frontend\reactapp\src\admin\Instagram\AddInstagram.jsx, code is 50, comment is 0, blank is 8.
+frontend\reactapp\src\admin\Instagram\DetailInstagram.css, code is 30, comment is 0, blank is 4.
+frontend\reactapp\src\admin\Instagram\DetailInstagram.jsx, code is 48, comment is 2, blank is 8.
+frontend\reactapp\src\admin\Instagram\UpdateInstagram.css, code is 52, comment is 0, blank is 6.
+frontend\reactapp\src\admin\Instagram\UpdateInstagram.jsx, code is 56, comment is 2, blank is 11.
+frontend\reactapp\src\admin\Logo\LogoDetail.css, code is 28, comment is 0, blank is 2.
+frontend\reactapp\src\admin\Logo\LogoDetail.jsx, code is 45, comment is 1, blank is 8.
+frontend\reactapp\src\admin\Logo\UpdateLogo.css, code is 52, comment is 0, blank is 6.
+frontend\reactapp\src\admin\Logo\UpdateLogo.jsx, code is 50, comment is 2, blank is 14.
+frontend\reactapp\src\admin\Message\MessageDetail.css, code is 30, comment is 0, blank is 3.
+frontend\reactapp\src\admin\Message\MessageDetail.jsx, code is 41, comment is 1, blank is 8.
+frontend\reactapp\src\admin\Photos\AddPhotos.css, code is 52, comment is 0, blank is 6.
+frontend\reactapp\src\admin\Photos\AddPhotos.jsx, code is 42, comment is 0, blank is 8.
+frontend\reactapp\src\admin\Photos\PhotosDetail.css, code is 32, comment is 0, blank is 2.
+frontend\reactapp\src\admin\Photos\PhotosDetail.jsx, code is 51, comment is 2, blank is 10.
+frontend\reactapp\src\admin\Photos\UpdatePhotos.css, code is 52, comment is 0, blank is 7.
+frontend\reactapp\src\admin\Photos\UpdatePhotos.jsx, code is 51, comment is 2, blank is 14.
+frontend\reactapp\src\admin\Products\AddProducts.css, code is 52, comment is 0, blank is 6.
+frontend\reactapp\src\admin\Products\AddProducts.jsx, code is 50, comment is 0, blank is 8.
+frontend\reactapp\src\admin\Products\ProductDetails.css, code is 30, comment is 0, blank is 3.
+frontend\reactapp\src\admin\Products\ProductsDetail.jsx, code is 49, comment is 2, blank is 7.
+frontend\reactapp\src\admin\Products\UpdateProduct.css, code is 52, comment is 0, blank is 6.
+frontend\reactapp\src\admin\Products\UpdateProduct.jsx, code is 56, comment is 2, blank is 12.
+frontend\reactapp\src\admin\Settingss\SettingDetail.css, code is 24, comment is 0, blank is 5.
+frontend\reactapp\src\admin\Settingss\SettingsDetail.jsx, code is 45, comment is 1, blank is 6.
+frontend\reactapp\src\admin\Settingss\SettingsUpdate.css, code is 52, comment is 0, blank is 6.
+frontend\reactapp\src\admin\Settingss\SettingsUpdate.jsx, code is 59, comment is 2, blank is 12.
+frontend\reactapp\src\admin\Slider\AddSlider.css, code is 52, comment is 0, blank is 6.
+frontend\reactapp\src\admin\Slider\AddSlider.jsx, code is 50, comment is 0, blank is 7.
+frontend\reactapp\src\admin\Slider\SliderDetail.css, code is 22, comment is 0, blank is 4.
+frontend\reactapp\src\admin\Slider\SliderDetail.jsx, code is 50, comment is 2, blank is 7.
+frontend\reactapp\src\admin\Slider\UpdateSlider.css, code is 52, comment is 0, blank is 6.
+frontend\reactapp\src\admin\Slider\UpdateSlider.jsx, code is 56, comment is 2, blank is 13.
+frontend\reactapp\src\App.css, code is 14, comment is 0, blank is 0.
+frontend\reactapp\src\App.js, code is 82, comment is 0, blank is 2.
+frontend\reactapp\src\assets\countdown.jpg, it is a binary file.
+frontend\reactapp\src\assets\das4.png, it is a binary file.
+frontend\reactapp\src\assets\new1.jpg, it is a binary file.
+frontend\reactapp\src\assets\new3.jpg, it is a binary file.
+frontend\reactapp\src\assets\new33.jpg, it is a binary file.
+frontend\reactapp\src\assets\timer.jpeg, it is a binary file.
+frontend\reactapp\src\components\CountDown\UseCountDown.jsx, code is 23, comment is 0, blank is 9.
+frontend\reactapp\src\components\Footer\Footer.css, code is 88, comment is 0, blank is 1.
+frontend\reactapp\src\components\Footer\Footer.jsx, code is 86, comment is 0, blank is 9.
+frontend\reactapp\src\components\Header\Header.css, code is 114, comment is 12, blank is 2.
+frontend\reactapp\src\components\Header\Header.jsx, code is 66, comment is 0, blank is 6.
+frontend\reactapp\src\components\Scrolltop\ScrollTop.js, code is 10, comment is 0, blank is 6.
+frontend\reactapp\src\components\SidebarDropdown\NavItemData.jsx, code is 61, comment is 0, blank is 0.
+frontend\reactapp\src\components\SidebarDropdown\SideBarDropDown.css, code is 9, comment is 0, blank is 1.
+frontend\reactapp\src\components\SidebarDropdown\SideBarDropDown.jsx, code is 34, comment is 0, blank is 4.
+frontend\reactapp\src\components\SidebarDropdown\SideItems.jsx, code is 48, comment is 0, blank is 10.
+frontend\reactapp\src\Context\CardContext.js, code is 12, comment is 0, blank is 6.
+frontend\reactapp\src\index.js, code is 12, comment is 0, blank is 2.
+frontend\reactapp\src\Menu\Menu.css, code is 79, comment is 0, blank is 16.
+frontend\reactapp\src\Menu\Menu.js, code is 16, comment is 0, blank is 2.
+frontend\reactapp\src\Menu\MenuItems.js, code is 8, comment is 0, blank is 0.
+frontend\reactapp\src\pages\About\About.css, code is 42, comment is 0, blank is 1.
+frontend\reactapp\src\pages\About\About.jsx, code is 28, comment is 0, blank is 3.
+frontend\reactapp\src\pages\Basket\Basket.css, code is 29, comment is 1, blank is 1.
+frontend\reactapp\src\pages\Basket\Basket.js, code is 63, comment is 3, blank is 7.
+frontend\reactapp\src\pages\Contact\Contact.css, code is 118, comment is 0, blank is 0.
+frontend\reactapp\src\pages\Contact\Contact.jsx, code is 91, comment is 0, blank is 11.
+frontend\reactapp\src\pages\FAQs\FAQs.css, code is 66, comment is 0, blank is 2.
+frontend\reactapp\src\pages\FAQs\FAQs.jsx, code is 45, comment is 0, blank is 6.
+frontend\reactapp\src\pages\Home\Home.css, code is 6, comment is 0, blank is 0.
+frontend\reactapp\src\pages\Home\Home.jsx, code is 20, comment is 0, blank is 5.
+frontend\reactapp\src\pages\Instagram\Instagram.css, code is 67, comment is 0, blank is 2.
+frontend\reactapp\src\pages\Instagram\Instagram.jsx, code is 30, comment is 0, blank is 5.
+frontend\reactapp\src\pages\Modal\Modal.css, code is 80, comment is 0, blank is 3.
+frontend\reactapp\src\pages\Modal\Modal.jsx, code is 65, comment is 0, blank is 8.
+frontend\reactapp\src\pages\Photos\Photo.css, code is 51, comment is 0, blank is 0.
+frontend\reactapp\src\pages\Photos\Photos.jsx, code is 35, comment is 0, blank is 5.
+frontend\reactapp\src\pages\Products\Products.css, code is 103, comment is 0, blank is 6.
+frontend\reactapp\src\pages\Products\Products.jsx, code is 56, comment is 25, blank is 11.
+frontend\reactapp\src\pages\Slider\Slider.css, code is 94, comment is 0, blank is 2.
+frontend\reactapp\src\pages\Slider\Slider.jsx, code is 40, comment is 0, blank is 5.
+frontend\reactapp\src\pages\Timer\Timer.css, code is 70, comment is 4, blank is 2.
+frontend\reactapp\src\pages\Timer\Timer.jsx, code is 39, comment is 0, blank is 5.
+===============================================================================

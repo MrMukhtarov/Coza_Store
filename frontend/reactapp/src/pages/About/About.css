@@ -40,4 +40,10 @@
         margin: 0 !important;
         padding: 0 !important;
     }
+    .about .bottom{
+        padding: 0 2rem;
+    }
+    .about .top{
+        padding: 0 2rem;
+    }
 }

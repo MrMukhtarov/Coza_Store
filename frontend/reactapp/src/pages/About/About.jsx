@@ -13,7 +13,7 @@ const About = () => {
                 <div className="col-md-6 mb-5 col-12 text-center">
                         <img src="https://static.pullandbear.net/2/photos//2022/I/0/2/p/8555/512/400/03/8555512400_5_1_8.jpg?t=1661255183326&imwidth=1440" alt="About" className='w-75 img1'/>
                     </div>
-                    <div className="col-md-6">
+                    <div className="col-md-6 top">
                         <h3 className="mb-0 about-title">Our Story</h3>
                         <hr className='w-50'/>
                         <p className="lead mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris consequat consequat enim, non auctor massa ultrices non. Morbi sed odio massa. Quisque at vehicula tellus, sed tincidunt augue. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Maecenas varius egestas diam, eu sodales metus scelerisque congue. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Maecenas gravida justo eu arcu egestas convallis. Nullam eu erat bibendum, tempus ipsum eget, dictum enim. Donec non neque ut enim dapibus tincidunt vitae nec augue. Suspendisse potenti. Proin ut est diam. Donec condimentum euismod tortor, eget facilisis diam faucibus et. Morbi a tempor elit.</p>
@@ -24,7 +24,7 @@ const About = () => {
                 </div>
                 <div className="row mt-5">
                 
-                    <div className="col-md-6">
+                    <div className="col-md-6 bottom">
                         <h3 className="mb-0 about-title">Our Mission</h3>
                         <hr className='w-50'/>
                         <p className="lead mb-4">Mauris non lacinia magna. Sed nec lobortis dolor. Vestibulum rhoncus dignissim risus, sed consectetur erat. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nullam maximus mauris sit amet odio convallis, in pharetra magna gravida. Praesent sed nunc fermentum mi molestie tempor. Morbi vitae viverra odio. Pellentesque ac velit egestas, luctus arcu non, laoreet mauris. Sed in ipsum tempor, consequat odio in, porttitor ante. Ut mauris ligula, volutpat in sodales in, porta non odio. Pellentesque tempor urna vitae mi vestibulum, nec venenatis nulla lobortis. Proin at gravida ante. Mauris auctor purus at lacus maximus euismod. Pellentesque vulputate massa ut nisl hendrerit, eget elementum libero iaculis.</p>
