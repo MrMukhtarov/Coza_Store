@@ -71,62 +71,75 @@
     }
 } */
 
-.alldivcount{
+.timers{
     background-color: #fff;
     padding: 30px;
 }
 
-.alldivcount .coming-soon{
-    min-height: 40vh;
-    align-items: center;
-    flex-direction: column;
-    justify-content: center;
-}
 
-.alldivcount .countdown{
+.timers .countdown{
     display: flex ;
     justify-content: space-around;
     text-align: center;
 }
 
-.alldivcount .img1{
+.timers .img1{
     height: 70vh;
     width: 550px;
     object-fit: cover;
 }
  
 
-.alldivcount .time{
+.timers .time{
     padding: 20px 40px;
-    border: 3px solid #87879953;
 }
 
-.alldivcount .right{
+.timers .right{
     text-align: center;
     margin-top: 100px;
 }
-.alldivcount .h5{
+.timers .h5{
     margin-bottom: 50px;
     font-weight: bold;
-    color: #878799ab;
+    color: #272729ab;
     font-size: 30px;
-    font-family: monospace;
+    letter-spacing: 2px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-.alldivcount .timer{
-    color: #9cafe7;
+.timers .timer{
+    color: #333;
     font-size: 20px;
     font-weight: bold;
-    font-family:monospace
+    letter-spacing: 6px;
+}
+.timers .allcount{
+    border: 1px solid #00000059;
+    padding: 6px 0;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 140px;
+}
+.timers .allcount .dys{
+    margin-left: 22px;
+}
+.timers .allcount .hrs{
+    margin-left: 15px;
+    text-align: left;
+}
+.timers .allcount .mnt{
+    margin-left: 15px;
+}
+.timers .allcount .scd{
+    margin-left: 15px;
 }
 
-.alldivcount .white{
+.timers .right{
     position: relative;
     width: 550px;
     height: 70vh;
     background-color: #fff;
 }
 
-.alldivcount .countdowndiv{
+.timers .coming-soon{
     position:absolute;
     top: 50%;
     left: 50%;
@@ -134,20 +147,27 @@
 }
 
 @media(max-width:576px){
-    .alldivcount .time{
+    .timers .allcount{
         width: 300px;
+        font-size: 13px;
+    }
+    .timers .timer{
+        font-size: 17px;
+    }
+    .timers .allcount .dys{
+        margin-left: 10px;
     }
 }
 
 @media(max-width : 992px) and (min-width:576px){
-    .alldivcount{
+    .timers{
         text-align: center;
     }
-    .alldivcount .white{
+    .timers .right{
         text-align: center;
         margin: auto;
     }
-    .alldivcount .time{
+    .timers .time{
         width: 400px;
     }
 }

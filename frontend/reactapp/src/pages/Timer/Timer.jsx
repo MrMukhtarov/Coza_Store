@@ -42,36 +42,38 @@ const Timer = () => {
     //         </div>
     //    </div>
     // </div>
-    <div className='alldivcount'>
-       <div className="container">
-            <div className="row align-items-center justify-content-between">
-                <div className="left col-lg-6">
-                    <img className='img-fluid img1' src={timer} alt="" />
-                </div>
-                <div className='white'>
-                <div className='coming-soon col-lg-6'>
-                    </div>
-                           <div className="countdowndiv col-lg-12 text-center">
-                           <h5 className='h5'>We are opening up soon!</h5>
-                            <div className="countdown row">
-                               <div className='time'>
-                               <span className='timer'>{`${days} : `}</span>
-                               <span className='timer'>{`0${hours} :  `}</span>
-                               <span className='timer'>{`${minutes} : `}</span>
-                               <span className='timer'>{`${seconds}`}</span>
-                               </div>
-                               <div className="timenames">
-                                     <span>days</span>
-                                     <span>hours</span>
-                                     <span>minutes</span>
-                                     <span>seconds</span>
-                                 </div>
+    <div className='timers'>
+    <div className="container">
+         <div className="row align-items-center justify-content-between">
+             <div className="left col-lg-6">
+                 <img className='img-fluid img1' src={timer} alt="" />
+             </div>
+             <div className='right'>
+                        <div className="coming-soon col-lg-12 text-center">
+                        <h5 className='h5'>We are opening up soon!</h5>
+                         <div className="allcount">
+                         <div className="countdown row">
+                            <div className='time'>
+                                <span className='timer'>{`${days} : `}</span>
+                                <span className='timer'>{`0${hours} :  `}</span>
+                                <span className='timer'>{`${minutes} : `}</span>
+                                <span className='timer'>{`${seconds}`}</span>
                             </div>
-                    </div>
-                </div>
-            </div>
-       </div>
+                         </div>
+                         <div>
+                         <div className='timename'>
+                            <span className='dys' >DAYS  </span>
+                            <span className='hrs' > HOURS  </span>
+                            <span className='mnt'> MINUTES  </span>
+                            <span className='scd'> SECONDS  </span>
+                            </div>
+                         </div>
+                         </div>
+                 </div>
+             </div>
+         </div>
     </div>
+ </div>
   )
 }
 
