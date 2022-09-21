@@ -46,12 +46,12 @@ useEffect(() => {
                 ))}
             </div>
             <div className="col-lg-6 text-end center">
-                <NavLink to="/">HOME</NavLink>
-                <NavLink to="/shop">SHOP</NavLink>
-                <a href="/" className='features'>FEATURES</a>
-                <a href="/">BLOG</a>
-                <NavLink to='/about'>ABOUT</NavLink>
-                <NavLink to='/contact'>CONTACT</NavLink>
+                <NavLink to="/" data-replace="Home"><span>Home</span></NavLink>
+                <NavLink to="/shop" data-replace="Shop"><span>Shop</span></NavLink>
+                <NavLink to="/" data-replace="Features"><span>Features</span></NavLink>
+                <NavLink to="/" data-replace="Blog"><span>Blog</span></NavLink>
+                <NavLink to="/about" data-replace="About"><span>About</span></NavLink>
+                <NavLink to="/contact" data-replace="Contact"><span>Contact</span></NavLink>
             </div>
             <div className="col-lg-3 col-6 right text-end col-md-3 justify-content-between col-sm-3">
               <NavLink to='/basket'>

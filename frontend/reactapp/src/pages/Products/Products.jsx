@@ -52,7 +52,8 @@ const Products = () => {
       model === true ? <Modal image={tempdata[1]} name={tempdata[2]} price={tempdata[3]} hide={() => serModel(false)}/> : ''
     }
     <div className='navdiv'>
-      <NavLink  className="loadmore" to={'/'}>Load More</NavLink>
+      <NavLink to="/" data-replace="LOAD MORE"><span>LOAD MORE</span></NavLink>
+      {/* <NavLink  className="loadmore" to={'/'}>Load More</NavLink> */}
     </div>
     </>
   )
