@@ -32,7 +32,17 @@
     transform: scale(1.1);
     transition: 0.9s;
 }
-#products .btn {
+#products .imgs{
+    overflow: hidden;
+}
+#products .bottom{
+    position: relative;
+}
+#products .navlink:hover{
+    background-color: black;
+    color: white;
+}
+#products .navlink{
     position: absolute;
     top: 75%;
     left: 50%;
@@ -40,26 +50,17 @@
     text-align: center;
     background-color: #ffffff;
     border-radius: 30px;
-    border-color: #ffffff;
+    /* border-color: #ffffff; */
     transition: .3s;
+    padding: 7px 20px;
 }
-#products .btn a{
+#products .navlink a{
     text-decoration: none;
     color: black;
 }
-#products .imgs{
-    overflow: hidden;
-}
-#products .bottom{
-    position: relative;
-}
-#products .btn:hover{
-    background-color: #222222;
-    border-color: black;
-}
-#products .btn a:hover{
+/* #products .btn a:hover{
     color: #ffffff;
-}
+} */
  .loadmore {
     background-color: black;
     border-radius: 30px;

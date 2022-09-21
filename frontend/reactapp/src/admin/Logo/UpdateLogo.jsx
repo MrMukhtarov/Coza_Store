@@ -6,6 +6,10 @@ import './UpdateLogo.css'
 
 const UpdateLogo = () => {
 
+    useEffect(() => {
+        document.title = 'Admin | Update Logo';
+      });
+
     const history = useNavigate()
 
     const [inputs,setInputs] = useState([])

@@ -6,6 +6,10 @@ import './UpdateInstagram.css'
 
 const UpdateInstagram = () => {
 
+    useEffect(() => {
+        document.title = 'Admin | Update Instagram';
+      });
+
     const history = useNavigate();
 
     const [inputs,setInputs] = useState({ })

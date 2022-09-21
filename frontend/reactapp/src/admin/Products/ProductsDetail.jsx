@@ -6,6 +6,10 @@ import './ProductDetails.css'
 
 const ProductsDetail = () => {
 
+  useEffect(() => {
+    document.title = 'Admin | Products Detail';
+  });
+
     const history = useNavigate();
 
     const [product , setProduct] = useState([])

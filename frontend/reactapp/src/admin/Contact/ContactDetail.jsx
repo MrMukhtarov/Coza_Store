@@ -6,6 +6,10 @@ import './ContactDetail.css'
 
 const ContactDetail = () => {
 
+  useEffect(() => {
+    document.title = 'Admin | Contact Detail';
+  });
+
     const [contact , setContact] = useState([])
 
    const contact_arr = contact && contact.map(item => {

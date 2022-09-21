@@ -41,6 +41,10 @@ const Contact = () => {
       .catch(error => console.log(error))
   } , [])
 
+  useEffect(() => {
+    document.title = 'Contact';
+  });
+
 
   return (
      <div id='contact'>

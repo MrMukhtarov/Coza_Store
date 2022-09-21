@@ -6,6 +6,10 @@ import './MessageDetail.css'
 
 const MessageDetail = () => {
 
+  useEffect(() => {
+    document.title = 'Admin | Message Detail';
+  });
+
     const history = useNavigate();
 
 

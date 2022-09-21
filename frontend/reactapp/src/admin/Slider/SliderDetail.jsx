@@ -6,6 +6,10 @@ import './SliderDetail.css'
 
 const SliderDetail = () => {
 
+  useEffect(() => {
+    document.title = 'Admin | Slider Detail';
+  });
+
     const history = useNavigate();
 
     const [slider , setSlider] = useState([])

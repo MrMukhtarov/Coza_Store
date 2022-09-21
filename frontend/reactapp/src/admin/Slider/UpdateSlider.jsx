@@ -6,6 +6,10 @@ import './UpdateSlider.css'
 
 const UpdateSlider = () => {
 
+    useEffect(() => {
+        document.title = 'Admin | Update Slider';
+      });
+
     const history = useNavigate();
 
     const [inputs,setInputs] = useState({ })

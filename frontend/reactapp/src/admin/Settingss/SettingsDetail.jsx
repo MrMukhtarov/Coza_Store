@@ -6,6 +6,10 @@ import './SettingDetail.css'
 
 const SettingsDetail = () => {
 
+  useEffect(() => {
+    document.title = 'Admin | Settings Detail';
+  });
+
     const [setting , setSetting] = useState([])
 
    const setting_arr = setting && setting.map(item => {

@@ -12,6 +12,9 @@ const FAQs = () => {
       .catch(error => console.log(error))
   } , [])
 
+  useEffect(() => {
+    document.title = 'FAQs';
+  });
 
   return (
  <section className="FAQs">

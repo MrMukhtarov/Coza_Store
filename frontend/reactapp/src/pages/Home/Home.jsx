@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import Instagram from '../Instagram/Instagram'
 import Photos from '../Photos/Photos'
 import Products from '../Products/Products'
@@ -8,6 +8,10 @@ import "./Home.css"
 import '../Products/Products.css'
 
 const Home = () => {
+
+  useEffect(() => {
+    document.title = 'Home';
+  });
 
   return (
 

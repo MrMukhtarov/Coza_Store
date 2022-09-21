@@ -6,6 +6,10 @@ import './UpdatePhotos.css'
 
 const UpdatePhotos = () => {
 
+    useEffect(() => {
+        document.title = 'Admin | Update Photo';
+      });
+
     const history = useNavigate()
 
     const [inputs,setInputs] = useState({ })

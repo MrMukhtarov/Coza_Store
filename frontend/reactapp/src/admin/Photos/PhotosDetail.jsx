@@ -6,6 +6,10 @@ import './PhotosDetail.css'
 
 const PhotosDetail = () => {
 
+  useEffect(() => {
+    document.title = 'Admin | Photo Detail';
+  });
+
     const history = useNavigate();
 
     const [photos , setPhotos] = useState([])

@@ -6,6 +6,10 @@ import './DetailInstagram.css'
 
 const DetailInstagram = () => {
 
+  useEffect(() => {
+    document.title = 'Admin | Instagram Detail';
+  });
+
     const history = useNavigate();
 
     const [instagram , setInstagram] = useState([])

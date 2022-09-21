@@ -6,6 +6,10 @@ import './SettingsUpdate.css'
 
 const SettingsUpdate = () => {
 
+    useEffect(() => {
+        document.title = 'Admin | Update Setting';
+      });
+
     const history = useNavigate();
 
     const [inputs,setInputs] = useState({ })

@@ -6,6 +6,10 @@ import './ContactUpdate.css'
 
 const ContactUpdate = () => {
 
+    useEffect(() => {
+        document.title = 'Admin | Contact Update';
+      });
+
     const history = useNavigate();
 
     const [inputs,setInputs] = useState({ })

@@ -5,6 +5,11 @@ import SideBarDropDown from '../../components/SidebarDropdown/SideBarDropDown';
 import './FAQsUpdate.css'
 
 const FAQsUpdate = () => {
+
+    useEffect(() => {
+        document.title = 'Admin | FAQs Update';
+      });
+
     const history = useNavigate();
 
     const [inputs,setInputs] = useState({ })

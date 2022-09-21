@@ -14,26 +14,60 @@ const Timer = () => {
     const seconds = Math.floor(timeLeft / 1000) % 60;
 
   return (
-    <div className='timers'>
+    // <div className='timers'>
+    //    <div className="container">
+    //         <div className="row justify-content-between all">
+    //             <div className="left col-lg-5 sm-12">
+    //                 <img className='img-fluid img1' src={timer} alt="" />
+    //             </div>
+    //             <div className="right col-lg-6 text-end bg-light">
+    //                 <section className='coming-soon col-lg-12 text-center'>
+    //                         <h2>We are opening up soon!</h2>
+    //                         <div className="countdown col-12 text-center row">
+    //                             <div title='timer' className='time col-12'>
+    //                                 <span className='timer'>{`${days} : `}</span>
+    //                                 <span className='timer'>{`0${hours} :  `}</span>
+    //                                 <span className='timer'>{`${minutes} : `}</span>
+    //                                 <span className='timer'>{`${seconds}`}</span>
+    //                             </div>
+    //                             <div className="timenames">
+    //                                 <span>days</span>
+    //                                 <span>hours</span>
+    //                                 <span>minutes</span>
+    //                                 <span>seconds</span>
+    //                             </div>
+    //                         </div>
+    //                 </section>
+    //             </div>
+    //         </div>
+    //    </div>
+    // </div>
+    <div className='alldivcount'>
        <div className="container">
-            <div className="row justify-content-between all">
-                <div className="left col-lg-5 sm-12">
+            <div className="row align-items-center justify-content-between">
+                <div className="left col-lg-6">
                     <img className='img-fluid img1' src={timer} alt="" />
                 </div>
-                <div className="right col-lg-6 text-end bg-light">
-                    <section className='coming-soon'>
-                        <div>
-                            <h2>We are opening up soon!</h2>
-                            <div className="countdown col-12 ">
-                                <div title='timer' className='time col-12'>
-                                    <span className='timer'>{`${days} : `}</span>
-                                    <span className='timer'>{`0${hours} :  `}</span>
-                                    <span className='timer'>{`${minutes} : `}</span>
-                                    <span className='timer'>{`${seconds}`}</span>
-                                </div>
+                <div className='white'>
+                <div className='coming-soon col-lg-6'>
+                    </div>
+                           <div className="countdowndiv col-lg-12 text-center">
+                           <h5 className='h5'>We are opening up soon!</h5>
+                            <div className="countdown row">
+                               <div className='time'>
+                               <span className='timer'>{`${days} : `}</span>
+                               <span className='timer'>{`0${hours} :  `}</span>
+                               <span className='timer'>{`${minutes} : `}</span>
+                               <span className='timer'>{`${seconds}`}</span>
+                               </div>
+                               <div className="timenames">
+                                     <span>days</span>
+                                     <span>hours</span>
+                                     <span>minutes</span>
+                                     <span>seconds</span>
+                                 </div>
                             </div>
-                        </div>
-                    </section>
+                    </div>
                 </div>
             </div>
        </div>

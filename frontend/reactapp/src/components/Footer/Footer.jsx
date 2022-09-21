@@ -62,9 +62,9 @@ useEffect(() => {
                         {settings && settings.map((settingss) => (
                              <div>
                              <p>Any questions? Let us know in store at 8th floor, 379 Hudson St, New York, NY 10018 or call us on (+994) {settingss.phone}</p>
-                                 <a href="/"><i className={settingss.icon1}></i></a>
-                                 <a href="/"><i className={settingss.icon2}></i></a>
-                                 <a href="/"><i className={settingss.icon3}></i></a>
+                                 <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer"><i className={settingss.icon1}></i></a>
+                                 <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer"><i className={settingss.icon2}></i></a>
+                                 <a href="https://www.pinterest.com/" target="_blank" rel="noopener noreferrer"><i className={settingss.icon3}></i></a>
                              </div>
                         ))}
                     </div>

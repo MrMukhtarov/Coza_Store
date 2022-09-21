@@ -4,7 +4,7 @@ import './Products.css'
 import Modal from '../Modal/Modal'
 import axios from 'axios'
 
-const Products = ({prod}) => {
+const Products = () => {
 
   const [cards , setCards] = useState([])
 
@@ -36,9 +36,7 @@ const Products = ({prod}) => {
               <div className="box">
                 <div className="bottom-img imgs">
                   <img className='img-fluid' src={cardss.image} alt="" />
-                  <div className="btn">
-                    <NavLink to='/' onClick={() => getData(cardss.image, cardss.name, cardss.price)}>Quick View</NavLink>
-                  </div>
+                    <NavLink className="navlink" to='/' onClick={() => getData(cardss.image, cardss.name, cardss.price)}>Quick View</NavLink>
                 </div>
                 <div className="bottom-text">
                   <a href="/">{cardss.name}</a>
@@ -58,35 +56,6 @@ const Products = ({prod}) => {
     </div>
     </>
   )
-
-  // const {image, name , price} = prod
-
-  //     const [model, serModel] = useState(false)
-  //     const [tempdata, setTempData] = useState([])
-
-  //     const getData = (image,name,price) => {
-  //       let tempData = [image, name,price]
-  //       setTempData(item => [1, ...tempData])
-  //       return serModel(true)
-  //     }
-
-  // return (
-  //   <div className='products'>
-  //     <div className="imgs">
-  //       <img className='img-fluid' src={image} alt={name} />
-  //     </div>
-  //       <div className='productDesc row'>
-  //           <a href='/' className='name' style={{fontWeight:700}}>{name}</a>
-  //           <span className='price'>{price} AZN</span>
-  //       </div>
-  //       {/* <div className="btn"> */}
-  //         <NavLink className='view' to='/' onClick={() => getData(image, name, price)}>Quick View</NavLink>
-  //       {/* </div> */}
-  //       {
-  //         model === true ? <Modal image={tempdata[1]} name={tempdata[2]} price={tempdata[3]} prod={prod} hide={() => serModel(false)}/> : ''
-  //       }
-  //   </div>
-  // )
 }
 
 export default Products

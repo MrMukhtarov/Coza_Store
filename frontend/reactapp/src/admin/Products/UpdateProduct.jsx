@@ -6,6 +6,10 @@ import './UpdateProduct.css'
 
 const UpdateProduct = () => {
 
+    useEffect(() => {
+        document.title = 'Admin | Update Products';
+      });
+
     const history = useNavigate();
 
     const [inputs,setInputs] = useState({ })

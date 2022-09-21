@@ -1,9 +1,13 @@
 import axios from 'axios';
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import SideBarDropDown from '../../components/SidebarDropdown/SideBarDropDown';
 import './AddFAQs.css'
 
 const AddFAQs = () => {
+
+    useEffect(() => {
+        document.title = 'Admin | Add FAQs';
+      });
 
 
     const [inputs,setInputs] = useState({

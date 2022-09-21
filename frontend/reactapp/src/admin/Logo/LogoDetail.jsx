@@ -6,6 +6,10 @@ import './LogoDetail.css'
 
 const LogoDetail = () => {
 
+  useEffect(() => {
+    document.title = 'Admin | Logo Detail';
+  });
+
     const [logo , setLogo] = useState([])
 
     const logo_arr = logo && logo.map(item => {
