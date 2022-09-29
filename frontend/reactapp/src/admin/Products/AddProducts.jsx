@@ -1,6 +1,5 @@
 import axios from 'axios'
 import React, { useEffect, useState } from 'react'
-import { useNavigate } from 'react-router-dom'
 import SideBarDropDown from '../../components/SidebarDropdown/SideBarDropDown'
 import './AddProducts.css'
 
@@ -10,7 +9,6 @@ const AddProducts = () => {
         document.title = 'Admin | Add Products';
       });
 
-    const history = useNavigate()
 
     const [inputs,setInputs] = useState({
         image: '',
@@ -35,7 +33,8 @@ const AddProducts = () => {
 
     const handleSubmit = (e) => {
         e.preventDefault();
-        sendRequest().then(() => history('/admin'));
+        sendRequest()
+        window.location.reload();
     }
 
   return (

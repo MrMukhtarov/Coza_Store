@@ -34,6 +34,7 @@ import AddFAQs from './admin/FAQs/AddFAQs';
 import FAQsDetail from './admin/FAQs/FAQsDetail';
 import FAQsUpdate from './admin/FAQs/FAQsUpdate';
 import ScrollTop from './components/Scrolltop/ScrollTop';
+import Shop from './pages/Shop/Shop';
 
 function App() {
   return (
@@ -73,6 +74,7 @@ function App() {
             <Route path='/addfaq' element={<AddFAQs/>}/>
             <Route path='/faqdetail' element={<FAQsDetail/>}/>
             <Route path='/updatefaq/:id' element={<FAQsUpdate/>}/>
+            <Route path='/shop' element={<Shop/>}/>
         </Routes>
         <Footer/>
         </ScrollTop>

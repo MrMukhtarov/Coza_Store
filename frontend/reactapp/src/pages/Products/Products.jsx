@@ -31,7 +31,7 @@ const Products = () => {
           <div className="top">
             <h3>PRODUCT OVERVIEW</h3>
           </div>
-          {cards && cards.map((cardss) => (
+          {cards && cards.slice(0,12).map((cardss) => (
               <div className="bottom row col-lg-3 mb-5">
               <div className="box">
                 <div className="bottom-img imgs">
@@ -39,7 +39,7 @@ const Products = () => {
                     <NavLink className="navlink" to='/' onClick={() => getData(cardss.image, cardss.name, cardss.price)}>Quick View</NavLink>
                 </div>
                 <div className="bottom-text">
-                  <a href="/">{cardss.name}</a>
+                  <a href="/shop">{cardss.name}</a>
                   <span>{cardss.price} AZN</span>
                 </div>
               </div>
@@ -52,8 +52,7 @@ const Products = () => {
       model === true ? <Modal image={tempdata[1]} name={tempdata[2]} price={tempdata[3]} hide={() => serModel(false)}/> : ''
     }
     <div className='navdiv'>
-      <NavLink to="/" data-replace="LOAD MORE"><span>LOAD MORE</span></NavLink>
-      {/* <NavLink  className="loadmore" to={'/'}>Load More</NavLink> */}
+      <NavLink to="/shop" data-replace="LOAD MORE"><span>LOAD MORE</span></NavLink>
     </div>
     </>
   )
