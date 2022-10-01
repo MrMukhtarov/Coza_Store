@@ -4,6 +4,10 @@ import { NavLink, useLocation } from 'react-router-dom';
 import { Cart } from '../../Context/CardContext';
 import Menu from '../../Menu/Menu';
 import './Header.css'
+import { CgProfile } from "react-icons/cg";
+import { BiLogIn } from "react-icons/bi";
+
+
 
 const Header = () => {
 
@@ -57,6 +61,8 @@ useEffect(() => {
               <NavLink to='/basket'>
                 <i className="fa-solid fa-cart-shopping shp"><span className='zero'>{cart.length}</span></i>
               </NavLink>
+              <NavLink to='login'><BiLogIn className='profile'/></NavLink>
+              <NavLink to='/register'><CgProfile className='profile'/></NavLink>
                 <i className="fa-regular fa-heart shp"></i>
                 <div className="burger">
                     <span className='material-icons menu-btn' onClick={() => setIsOpen(true)}><i className="fa-solid fa-bars"></i></span>

@@ -1,6 +1,6 @@
 .homeslider .pictureText{
     position: absolute;
-    top: 270px;
+    top: 160px;
     left: 200px;
 }
 .homeslider .img{
@@ -10,19 +10,19 @@
 }
 .homeslider .icon {
     background-color: grey;
-    color: #ffffff;
+    color: black;
     border-radius: 50%;
 }
 .homeslider .span{
     font-weight: 400;
     font-size: 28px;
     line-height: 36px;
-    color: #fff;
+    color: black;
 }
 .homeslider .h2{
     font-weight: 800;
     font-size: 60px;
-    color: #fff;
+    color: black;
     margin-bottom: 40px;
     margin-top: 25px;
     font-weight: bold;
@@ -31,7 +31,7 @@
     font-weight: 400;
     font-size: 15px;
     line-height: 22px;
-    color: #ffffff;
+    color: black;
     padding: 15px 40px;
     border-radius: 20px;
     background-color: #B9795F;

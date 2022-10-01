@@ -4604,6 +4604,797 @@
                     "filename": "frontend\\reactapp\\src\\pages\\Timer\\Timer.jsx"
                 }
             ]
+        },
+        {
+            "version": "0.1.7",
+            "counttime": "2022-09-29 23:26:04",
+            "filesum": 129,
+            "codesum": 38674,
+            "commentsum": 45,
+            "blanksum": 687,
+            "filelist": [
+                {
+                    "blank": 5,
+                    "code": 37,
+                    "comment": 3,
+                    "filename": "Backend\\app.js"
+                },
+                {
+                    "blank": 6,
+                    "code": 93,
+                    "comment": 0,
+                    "filename": "Backend\\controller\\Card-Controller.js"
+                },
+                {
+                    "blank": 5,
+                    "code": 55,
+                    "comment": 0,
+                    "filename": "Backend\\controller\\Contact-Controller.js"
+                },
+                {
+                    "blank": 6,
+                    "code": 93,
+                    "comment": 0,
+                    "filename": "Backend\\controller\\FAQ-Controller.js"
+                },
+                {
+                    "blank": 6,
+                    "code": 93,
+                    "comment": 0,
+                    "filename": "Backend\\controller\\Instagram-Controller.js"
+                },
+                {
+                    "blank": 5,
+                    "code": 53,
+                    "comment": 0,
+                    "filename": "Backend\\controller\\Logo-Controller.js"
+                },
+                {
+                    "blank": 7,
+                    "code": 69,
+                    "comment": 0,
+                    "filename": "Backend\\controller\\Message-Controller.js"
+                },
+                {
+                    "blank": 6,
+                    "code": 89,
+                    "comment": 0,
+                    "filename": "Backend\\controller\\Photos-Controller.js"
+                },
+                {
+                    "blank": 6,
+                    "code": 73,
+                    "comment": 0,
+                    "filename": "Backend\\controller\\Setting-Controller.js"
+                },
+                {
+                    "blank": 6,
+                    "code": 93,
+                    "comment": 0,
+                    "filename": "Backend\\controller\\Slider-Controller.js"
+                },
+                {
+                    "blank": 3,
+                    "code": 16,
+                    "comment": 0,
+                    "filename": "Backend\\model\\Card-Model.js"
+                },
+                {
+                    "blank": 3,
+                    "code": 16,
+                    "comment": 0,
+                    "filename": "Backend\\model\\Contact-Model.js"
+                },
+                {
+                    "blank": 2,
+                    "code": 16,
+                    "comment": 0,
+                    "filename": "Backend\\model\\Faq-Model.js"
+                },
+                {
+                    "blank": 3,
+                    "code": 16,
+                    "comment": 0,
+                    "filename": "Backend\\model\\instagram-Model.js"
+                },
+                {
+                    "blank": 3,
+                    "code": 8,
+                    "comment": 0,
+                    "filename": "Backend\\model\\Logo_model.js"
+                },
+                {
+                    "blank": 3,
+                    "code": 12,
+                    "comment": 0,
+                    "filename": "Backend\\model\\Message-Model.js"
+                },
+                {
+                    "blank": 3,
+                    "code": 8,
+                    "comment": 0,
+                    "filename": "Backend\\model\\Photos-Model.js"
+                },
+                {
+                    "blank": 3,
+                    "code": 20,
+                    "comment": 0,
+                    "filename": "Backend\\model\\Settings-Model.js"
+                },
+                {
+                    "blank": 2,
+                    "code": 16,
+                    "comment": 0,
+                    "filename": "Backend\\model\\Slider-Model.js"
+                },
+                {
+                    "blank": 1,
+                    "code": 2476,
+                    "comment": 0,
+                    "filename": "Backend\\package-lock.json"
+                },
+                {
+                    "blank": 0,
+                    "code": 24,
+                    "comment": 0,
+                    "filename": "Backend\\package.json"
+                },
+                {
+                    "blank": 5,
+                    "code": 9,
+                    "comment": 0,
+                    "filename": "Backend\\routes\\Card-Router.js"
+                },
+                {
+                    "blank": 5,
+                    "code": 7,
+                    "comment": 0,
+                    "filename": "Backend\\routes\\Contact-Routes.js"
+                },
+                {
+                    "blank": 2,
+                    "code": 9,
+                    "comment": 0,
+                    "filename": "Backend\\routes\\FAQs-Routes.js"
+                },
+                {
+                    "blank": 5,
+                    "code": 9,
+                    "comment": 0,
+                    "filename": "Backend\\routes\\Instagram-Router.js"
+                },
+                {
+                    "blank": 3,
+                    "code": 7,
+                    "comment": 0,
+                    "filename": "Backend\\routes\\Logo-Routes.js"
+                },
+                {
+                    "blank": 3,
+                    "code": 8,
+                    "comment": 0,
+                    "filename": "Backend\\routes\\Message-Routes.js"
+                },
+                {
+                    "blank": 5,
+                    "code": 9,
+                    "comment": 0,
+                    "filename": "Backend\\routes\\Photos-Routes.js"
+                },
+                {
+                    "blank": 2,
+                    "code": 8,
+                    "comment": 0,
+                    "filename": "Backend\\routes\\Settings-Routes.js"
+                },
+                {
+                    "blank": 2,
+                    "code": 9,
+                    "comment": 0,
+                    "filename": "Backend\\routes\\Slider-Routes.js"
+                },
+                {
+                    "blank": 5,
+                    "code": 18,
+                    "comment": 1,
+                    "filename": "frontend\\reactapp\\.gitignore"
+                },
+                {
+                    "blank": 2,
+                    "code": 30452,
+                    "comment": 0,
+                    "filename": "frontend\\reactapp\\package-lock.json"
+                },
+                {
+                    "blank": 3,
+                    "code": 54,
+                    "comment": 0,
+                    "filename": "frontend\\reactapp\\package.json"
+                },
+                {
+                    "blank": 0,
+                    "code": 24,
+                    "comment": 0,
+                    "filename": "frontend\\reactapp\\public\\index.html"
+                },
+                {
+                    "blank": 15,
+                    "code": 21,
+                    "comment": 4,
+                    "filename": "frontend\\reactapp\\README.md"
+                },
+                {
+                    "blank": 0,
+                    "code": 5,
+                    "comment": 0,
+                    "filename": "frontend\\reactapp\\src\\admin\\Admin.css"
+                },
+                {
+                    "blank": 5,
+                    "code": 20,
+                    "comment": 0,
+                    "filename": "frontend\\reactapp\\src\\admin\\Admin.jsx"
+                },
+                {
+                    "blank": 3,
+                    "code": 22,
+                    "comment": 0,
+                    "filename": "frontend\\reactapp\\src\\admin\\Contact\\ContactDetail.css"
+                },
+                {
+                    "blank": 8,
+                    "code": 44,
+                    "comment": 1,
+                    "filename": "frontend\\reactapp\\src\\admin\\Contact\\ContactDetail.jsx"
+                },
+                {
+                    "blank": 6,
+                    "code": 52,
+                    "comment": 0,
+                    "filename": "frontend\\reactapp\\src\\admin\\Contact\\ContactUpdate.css"
+                },
+                {
+                    "blank": 14,
+                    "code": 59,
+                    "comment": 2,
+                    "filename": "frontend\\reactapp\\src\\admin\\Contact\\ContactUpdate.jsx"
+                },
+                {
+                    "blank": 7,
+                    "code": 52,
+                    "comment": 0,
+                    "filename": "frontend\\reactapp\\src\\admin\\FAQs\\AddFAQs.css"
+                },
+                {
+                    "blank": 9,
+                    "code": 52,
+                    "comment": 0,
+                    "filename": "frontend\\reactapp\\src\\admin\\FAQs\\AddFAQs.jsx"
+                },
+                {
+                    "blank": 4,
+                    "code": 30,
+                    "comment": 0,
+                    "filename": "frontend\\reactapp\\src\\admin\\FAQs\\FAQsDetail.css"
+                },
+                {
+                    "blank": 9,
+                    "code": 49,
+                    "comment": 2,
+                    "filename": "frontend\\reactapp\\src\\admin\\FAQs\\FAQsDetail.jsx"
+                },
+                {
+                    "blank": 6,
+                    "code": 52,
+                    "comment": 0,
+                    "filename": "frontend\\reactapp\\src\\admin\\FAQs\\FAQsUpdate.css"
+                },
+                {
+                    "blank": 12,
+                    "code": 59,
+                    "comment": 2,
+                    "filename": "frontend\\reactapp\\src\\admin\\FAQs\\FAQsUpdate.jsx"
+                },
+                {
+                    "blank": 6,
+                    "code": 52,
+                    "comment": 0,
+                    "filename": "frontend\\reactapp\\src\\admin\\Instagram\\AddInstagram.css"
+                },
+                {
+                    "blank": 9,
+                    "code": 53,
+                    "comment": 0,
+                    "filename": "frontend\\reactapp\\src\\admin\\Instagram\\AddInstagram.jsx"
+                },
+                {
+                    "blank": 4,
+                    "code": 30,
+                    "comment": 0,
+                    "filename": "frontend\\reactapp\\src\\admin\\Instagram\\DetailInstagram.css"
+                },
+                {
+                    "blank": 9,
+                    "code": 51,
+                    "comment": 2,
+                    "filename": "frontend\\reactapp\\src\\admin\\Instagram\\DetailInstagram.jsx"
+                },
+                {
+                    "blank": 6,
+                    "code": 52,
+                    "comment": 0,
+                    "filename": "frontend\\reactapp\\src\\admin\\Instagram\\UpdateInstagram.css"
+                },
+                {
+                    "blank": 12,
+                    "code": 59,
+                    "comment": 2,
+                    "filename": "frontend\\reactapp\\src\\admin\\Instagram\\UpdateInstagram.jsx"
+                },
+                {
+                    "blank": 2,
+                    "code": 28,
+                    "comment": 0,
+                    "filename": "frontend\\reactapp\\src\\admin\\Logo\\LogoDetail.css"
+                },
+                {
+                    "blank": 9,
+                    "code": 48,
+                    "comment": 1,
+                    "filename": "frontend\\reactapp\\src\\admin\\Logo\\LogoDetail.jsx"
+                },
+                {
+                    "blank": 6,
+                    "code": 52,
+                    "comment": 0,
+                    "filename": "frontend\\reactapp\\src\\admin\\Logo\\UpdateLogo.css"
+                },
+                {
+                    "blank": 15,
+                    "code": 53,
+                    "comment": 2,
+                    "filename": "frontend\\reactapp\\src\\admin\\Logo\\UpdateLogo.jsx"
+                },
+                {
+                    "blank": 3,
+                    "code": 30,
+                    "comment": 0,
+                    "filename": "frontend\\reactapp\\src\\admin\\Message\\MessageDetail.css"
+                },
+                {
+                    "blank": 9,
+                    "code": 44,
+                    "comment": 1,
+                    "filename": "frontend\\reactapp\\src\\admin\\Message\\MessageDetail.jsx"
+                },
+                {
+                    "blank": 6,
+                    "code": 52,
+                    "comment": 0,
+                    "filename": "frontend\\reactapp\\src\\admin\\Photos\\AddPhotos.css"
+                },
+                {
+                    "blank": 9,
+                    "code": 45,
+                    "comment": 0,
+                    "filename": "frontend\\reactapp\\src\\admin\\Photos\\AddPhotos.jsx"
+                },
+                {
+                    "blank": 2,
+                    "code": 32,
+                    "comment": 0,
+                    "filename": "frontend\\reactapp\\src\\admin\\Photos\\PhotosDetail.css"
+                },
+                {
+                    "blank": 11,
+                    "code": 54,
+                    "comment": 2,
+                    "filename": "frontend\\reactapp\\src\\admin\\Photos\\PhotosDetail.jsx"
+                },
+                {
+                    "blank": 7,
+                    "code": 52,
+                    "comment": 0,
+                    "filename": "frontend\\reactapp\\src\\admin\\Photos\\UpdatePhotos.css"
+                },
+                {
+                    "blank": 15,
+                    "code": 54,
+                    "comment": 2,
+                    "filename": "frontend\\reactapp\\src\\admin\\Photos\\UpdatePhotos.jsx"
+                },
+                {
+                    "blank": 6,
+                    "code": 52,
+                    "comment": 0,
+                    "filename": "frontend\\reactapp\\src\\admin\\Products\\AddProducts.css"
+                },
+                {
+                    "blank": 9,
+                    "code": 52,
+                    "comment": 0,
+                    "filename": "frontend\\reactapp\\src\\admin\\Products\\AddProducts.jsx"
+                },
+                {
+                    "blank": 3,
+                    "code": 30,
+                    "comment": 0,
+                    "filename": "frontend\\reactapp\\src\\admin\\Products\\ProductDetails.css"
+                },
+                {
+                    "blank": 8,
+                    "code": 52,
+                    "comment": 2,
+                    "filename": "frontend\\reactapp\\src\\admin\\Products\\ProductsDetail.jsx"
+                },
+                {
+                    "blank": 6,
+                    "code": 52,
+                    "comment": 0,
+                    "filename": "frontend\\reactapp\\src\\admin\\Products\\UpdateProduct.css"
+                },
+                {
+                    "blank": 13,
+                    "code": 59,
+                    "comment": 2,
+                    "filename": "frontend\\reactapp\\src\\admin\\Products\\UpdateProduct.jsx"
+                },
+                {
+                    "blank": 5,
+                    "code": 24,
+                    "comment": 0,
+                    "filename": "frontend\\reactapp\\src\\admin\\Settingss\\SettingDetail.css"
+                },
+                {
+                    "blank": 7,
+                    "code": 48,
+                    "comment": 1,
+                    "filename": "frontend\\reactapp\\src\\admin\\Settingss\\SettingsDetail.jsx"
+                },
+                {
+                    "blank": 6,
+                    "code": 52,
+                    "comment": 0,
+                    "filename": "frontend\\reactapp\\src\\admin\\Settingss\\SettingsUpdate.css"
+                },
+                {
+                    "blank": 13,
+                    "code": 62,
+                    "comment": 2,
+                    "filename": "frontend\\reactapp\\src\\admin\\Settingss\\SettingsUpdate.jsx"
+                },
+                {
+                    "blank": 6,
+                    "code": 52,
+                    "comment": 0,
+                    "filename": "frontend\\reactapp\\src\\admin\\Slider\\AddSlider.css"
+                },
+                {
+                    "blank": 8,
+                    "code": 53,
+                    "comment": 0,
+                    "filename": "frontend\\reactapp\\src\\admin\\Slider\\AddSlider.jsx"
+                },
+                {
+                    "blank": 4,
+                    "code": 22,
+                    "comment": 0,
+                    "filename": "frontend\\reactapp\\src\\admin\\Slider\\SliderDetail.css"
+                },
+                {
+                    "blank": 8,
+                    "code": 53,
+                    "comment": 2,
+                    "filename": "frontend\\reactapp\\src\\admin\\Slider\\SliderDetail.jsx"
+                },
+                {
+                    "blank": 6,
+                    "code": 52,
+                    "comment": 0,
+                    "filename": "frontend\\reactapp\\src\\admin\\Slider\\UpdateSlider.css"
+                },
+                {
+                    "blank": 14,
+                    "code": 59,
+                    "comment": 2,
+                    "filename": "frontend\\reactapp\\src\\admin\\Slider\\UpdateSlider.jsx"
+                },
+                {
+                    "blank": 0,
+                    "code": 14,
+                    "comment": 0,
+                    "filename": "frontend\\reactapp\\src\\App.css"
+                },
+                {
+                    "blank": 2,
+                    "code": 84,
+                    "comment": 0,
+                    "filename": "frontend\\reactapp\\src\\App.js"
+                },
+                {
+                    "filename": "frontend\\reactapp\\src\\assets\\countdown.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "frontend\\reactapp\\src\\assets\\das4.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "frontend\\reactapp\\src\\assets\\faviocn\\favicon.ico",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "frontend\\reactapp\\src\\assets\\new1.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "frontend\\reactapp\\src\\assets\\new3.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "frontend\\reactapp\\src\\assets\\new33.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "frontend\\reactapp\\src\\assets\\timer.jpeg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 9,
+                    "code": 23,
+                    "comment": 0,
+                    "filename": "frontend\\reactapp\\src\\components\\CountDown\\UseCountDown.jsx"
+                },
+                {
+                    "blank": 1,
+                    "code": 88,
+                    "comment": 0,
+                    "filename": "frontend\\reactapp\\src\\components\\Footer\\Footer.css"
+                },
+                {
+                    "blank": 9,
+                    "code": 86,
+                    "comment": 0,
+                    "filename": "frontend\\reactapp\\src\\components\\Footer\\Footer.jsx"
+                },
+                {
+                    "blank": 8,
+                    "code": 157,
+                    "comment": 0,
+                    "filename": "frontend\\reactapp\\src\\components\\Header\\Header.css"
+                },
+                {
+                    "blank": 6,
+                    "code": 66,
+                    "comment": 0,
+                    "filename": "frontend\\reactapp\\src\\components\\Header\\Header.jsx"
+                },
+                {
+                    "blank": 6,
+                    "code": 10,
+                    "comment": 0,
+                    "filename": "frontend\\reactapp\\src\\components\\Scrolltop\\ScrollTop.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 61,
+                    "comment": 0,
+                    "filename": "frontend\\reactapp\\src\\components\\SidebarDropdown\\NavItemData.jsx"
+                },
+                {
+                    "blank": 1,
+                    "code": 9,
+                    "comment": 0,
+                    "filename": "frontend\\reactapp\\src\\components\\SidebarDropdown\\SideBarDropDown.css"
+                },
+                {
+                    "blank": 4,
+                    "code": 34,
+                    "comment": 0,
+                    "filename": "frontend\\reactapp\\src\\components\\SidebarDropdown\\SideBarDropDown.jsx"
+                },
+                {
+                    "blank": 10,
+                    "code": 48,
+                    "comment": 0,
+                    "filename": "frontend\\reactapp\\src\\components\\SidebarDropdown\\SideItems.jsx"
+                },
+                {
+                    "blank": 6,
+                    "code": 12,
+                    "comment": 0,
+                    "filename": "frontend\\reactapp\\src\\Context\\CardContext.js"
+                },
+                {
+                    "blank": 2,
+                    "code": 12,
+                    "comment": 0,
+                    "filename": "frontend\\reactapp\\src\\index.js"
+                },
+                {
+                    "blank": 16,
+                    "code": 79,
+                    "comment": 0,
+                    "filename": "frontend\\reactapp\\src\\Menu\\Menu.css"
+                },
+                {
+                    "blank": 2,
+                    "code": 16,
+                    "comment": 0,
+                    "filename": "frontend\\reactapp\\src\\Menu\\Menu.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 8,
+                    "comment": 0,
+                    "filename": "frontend\\reactapp\\src\\Menu\\MenuItems.js"
+                },
+                {
+                    "blank": 1,
+                    "code": 47,
+                    "comment": 0,
+                    "filename": "frontend\\reactapp\\src\\pages\\About\\About.css"
+                },
+                {
+                    "blank": 5,
+                    "code": 31,
+                    "comment": 0,
+                    "filename": "frontend\\reactapp\\src\\pages\\About\\About.jsx"
+                },
+                {
+                    "blank": 1,
+                    "code": 29,
+                    "comment": 1,
+                    "filename": "frontend\\reactapp\\src\\pages\\Basket\\Basket.css"
+                },
+                {
+                    "blank": 7,
+                    "code": 63,
+                    "comment": 3,
+                    "filename": "frontend\\reactapp\\src\\pages\\Basket\\Basket.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 117,
+                    "comment": 0,
+                    "filename": "frontend\\reactapp\\src\\pages\\Contact\\Contact.css"
+                },
+                {
+                    "blank": 12,
+                    "code": 94,
+                    "comment": 0,
+                    "filename": "frontend\\reactapp\\src\\pages\\Contact\\Contact.jsx"
+                },
+                {
+                    "blank": 2,
+                    "code": 66,
+                    "comment": 0,
+                    "filename": "frontend\\reactapp\\src\\pages\\FAQs\\FAQs.css"
+                },
+                {
+                    "blank": 6,
+                    "code": 48,
+                    "comment": 0,
+                    "filename": "frontend\\reactapp\\src\\pages\\FAQs\\FAQs.jsx"
+                },
+                {
+                    "blank": 0,
+                    "code": 6,
+                    "comment": 0,
+                    "filename": "frontend\\reactapp\\src\\pages\\Home\\Home.css"
+                },
+                {
+                    "blank": 6,
+                    "code": 23,
+                    "comment": 0,
+                    "filename": "frontend\\reactapp\\src\\pages\\Home\\Home.jsx"
+                },
+                {
+                    "blank": 2,
+                    "code": 67,
+                    "comment": 0,
+                    "filename": "frontend\\reactapp\\src\\pages\\Instagram\\Instagram.css"
+                },
+                {
+                    "blank": 5,
+                    "code": 30,
+                    "comment": 0,
+                    "filename": "frontend\\reactapp\\src\\pages\\Instagram\\Instagram.jsx"
+                },
+                {
+                    "blank": 3,
+                    "code": 80,
+                    "comment": 0,
+                    "filename": "frontend\\reactapp\\src\\pages\\Modal\\Modal.css"
+                },
+                {
+                    "blank": 8,
+                    "code": 65,
+                    "comment": 0,
+                    "filename": "frontend\\reactapp\\src\\pages\\Modal\\Modal.jsx"
+                },
+                {
+                    "blank": 0,
+                    "code": 51,
+                    "comment": 0,
+                    "filename": "frontend\\reactapp\\src\\pages\\Photos\\Photo.css"
+                },
+                {
+                    "blank": 5,
+                    "code": 35,
+                    "comment": 0,
+                    "filename": "frontend\\reactapp\\src\\pages\\Photos\\Photos.jsx"
+                },
+                {
+                    "blank": 11,
+                    "code": 146,
+                    "comment": 1,
+                    "filename": "frontend\\reactapp\\src\\pages\\Products\\Products.css"
+                },
+                {
+                    "blank": 7,
+                    "code": 54,
+                    "comment": 0,
+                    "filename": "frontend\\reactapp\\src\\pages\\Products\\Products.jsx"
+                },
+                {
+                    "blank": 3,
+                    "code": 219,
+                    "comment": 2,
+                    "filename": "frontend\\reactapp\\src\\pages\\Shop\\Shop.css"
+                },
+                {
+                    "blank": 13,
+                    "code": 161,
+                    "comment": 0,
+                    "filename": "frontend\\reactapp\\src\\pages\\Shop\\Shop.jsx"
+                },
+                {
+                    "blank": 2,
+                    "code": 91,
+                    "comment": 0,
+                    "filename": "frontend\\reactapp\\src\\pages\\Slider\\Slider.css"
+                },
+                {
+                    "blank": 5,
+                    "code": 40,
+                    "comment": 0,
+                    "filename": "frontend\\reactapp\\src\\pages\\Slider\\Slider.jsx"
+                },
+                {
+                    "blank": 10,
+                    "code": 123,
+                    "comment": 0,
+                    "filename": "frontend\\reactapp\\src\\pages\\Timer\\Timer.css"
+                },
+                {
+                    "blank": 5,
+                    "code": 50,
+                    "comment": 0,
+                    "filename": "frontend\\reactapp\\src\\pages\\Timer\\Timer.jsx"
+                }
+            ]
         }
     ]
 }

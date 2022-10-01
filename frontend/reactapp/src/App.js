@@ -35,6 +35,8 @@ import FAQsDetail from './admin/FAQs/FAQsDetail';
 import FAQsUpdate from './admin/FAQs/FAQsUpdate';
 import ScrollTop from './components/Scrolltop/ScrollTop';
 import Shop from './pages/Shop/Shop';
+import Login from './pages/Login/Login';
+import Register from './pages/Register/Register';
 
 function App() {
   return (
@@ -75,6 +77,8 @@ function App() {
             <Route path='/faqdetail' element={<FAQsDetail/>}/>
             <Route path='/updatefaq/:id' element={<FAQsUpdate/>}/>
             <Route path='/shop' element={<Shop/>}/>
+            <Route path='/login' element={<Login/>}/>
+            <Route path='/register' element={<Register/>}/>
         </Routes>
         <Footer/>
         </ScrollTop>

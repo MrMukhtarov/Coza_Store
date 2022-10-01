@@ -4,5 +4,7 @@ export const items = [
     {itemText: "SHOP", itemLink: "/shop"},
     {itemText: "BLOG", itemLink: "/blog"},
     {itemText: "CONTACT", itemLink: "/contact"},
-    {itemText: "FEATURES", itemLink: "/features"},
+    {itemText: "FAQs", itemLink: "/faq"},
+    {itemText: "Login", itemLink: "/login"},
+    {itemText: "Register", itemLink: "/register"},
 ]

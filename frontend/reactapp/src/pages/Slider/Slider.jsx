@@ -24,7 +24,7 @@ useEffect(() => {
              <div className="pictureText">
                <span className='span'>{sliderss.title}</span>
                <h2 className='h2'>{sliderss.description}</h2>
-               <a href="/">SHOP NOW</a>
+               <a href="/shop">SHOP NOW</a>
              </div>
            </div>
            ))}

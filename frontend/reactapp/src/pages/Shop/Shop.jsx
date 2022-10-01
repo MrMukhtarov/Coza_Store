@@ -29,8 +29,6 @@ const Shop = () => {
         setVisible((prevValue) => prevValue + 4)
       }
 
-
-
   return (
     <section className="shop">
       <div className="container">
@@ -118,7 +116,7 @@ const Shop = () => {
                             <div className="mb-2 me-2"><a href="/">Fashion</a></div>
                             <div className="mb-2 me-2"><a href="/">Lifestyle</a></div>
                             <div className="mb-2 me-2"><a href="/">Denim</a></div>
-                            <div className="mb-2 me-2"><a href="/">StreetStyle</a></div>
+                            <div className="mb-2 me-2"><a href="/">Streetstyle</a></div>
                             <div><a href="/">Crafts</a></div>
                             </div>
                           </div>
