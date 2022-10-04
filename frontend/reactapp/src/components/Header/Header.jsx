@@ -53,7 +53,7 @@ useEffect(() => {
                 <NavLink to="/" data-replace="Home"><span>Home</span></NavLink>
                 <NavLink to="/shop" data-replace="Shop"><span>Shop</span></NavLink>
                 <NavLink to="/faq" data-replace="FAQs"><span>FAQs</span></NavLink>
-                <NavLink to="/" data-replace="Blog"><span>Blog</span></NavLink>
+                <NavLink to="/blog" data-replace="Blog"><span>Blog</span></NavLink>
                 <NavLink to="/about" data-replace="About"><span>About</span></NavLink>
                 <NavLink to="/contact" data-replace="Contact"><span>Contact</span></NavLink>
             </div>

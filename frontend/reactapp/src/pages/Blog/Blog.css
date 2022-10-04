@@ -1,0 +1,149 @@
+.blog{
+    padding: 5rem 0;
+}
+.blog .heading{
+    margin-left: 230px;
+}
+.blog .subheading{
+    text-transform: uppercase;
+    font-weight: 500;
+    color: #111;
+    font-size: 12px;
+    display: inline-block;
+    letter-spacing: 3px;
+    margin-bottom: 5px;
+    position: relative;
+    z-index: 0;
+    margin-left: -70px;
+    position: relative;
+    margin-right: 20px;
+}
+.blog .subheading .subblog::after{
+    content: ' ';
+    position: absolute;
+    left: 0;
+    bottom: -4px;
+    color: black;
+    background-color: black;
+    width: 100%;
+    height: 2px;
+}
+.blog .name{
+    font-weight: 800;
+    color: #444;
+    font-size: 14vw;
+    line-height: 1.2;
+}
+.blog .oz{
+    color: #000;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+.blog .heading-bottom{
+    margin-left: 400px;
+    font-size: 30px;
+    letter-spacing: 1px;
+    font-weight: 200;
+    color: #919191;
+}
+.blog .blog-content{
+    margin-top: 80px;
+}
+.blog .blog-content .left{
+    background-image: url('https://preview.colorlib.com/theme/cozastore/images/xblog-04.jpg.pagespeed.ic.Tayk23MsQY.webp');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.blog .blog-content .left1{
+    background-image: url('https://preview.colorlib.com/theme/cozastore/images/xblog-05.jpg.pagespeed.ic.IHqPduvAcv.webp');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.blog .blog-content .left3{
+    background-image: url('https://preview.colorlib.com/theme/libro/images/image_7.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.blog .blog-content .left4{
+    background-image: url('https://preview.colorlib.com/theme/libro/images/image_1.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.blog .blog-content .right{
+    margin-top: 30px;
+}
+.blog .blog-content .right i{
+    color: #F4BF2C;
+    cursor: pointer;
+}
+.blog .blog-content .right{
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+.blog .blog-content .right span{
+    color: #919191;
+    cursor: pointer;
+}
+.blog .blog-content .right h2{
+    font-size: 90px;
+    font-weight: 400;
+    line-height: 1.1;
+    color: #444;
+    text-decoration: underline #444;
+    position: relative;
+    transition: .3s;
+    margin-top: 20px;
+}
+.blog .blog-content .right h2:hover{
+    text-decoration: underline #F4BF2C;
+    cursor: pointer;
+}
+.blog .blog-content .right p{
+    font-size: 12px;
+    color: #999999;
+    margin-top: 20px;
+}
+.blog .pagination{
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+    padding: 0 10px !important;
+}
+.blog .bottompage{
+    background-color: #f4bf2c;
+    padding: 6rem 0;
+    margin-top: 50px;
+    margin-bottom: -80px;
+}
+
+.blog .form{
+    margin: auto;
+    border: 1px solid #333;
+    margin-bottom: 0;
+}
+.blog input{
+    border: none;
+    outline: none;
+    background-color: #f4bf2c;
+    outline: none !important;
+}
+.blog input::placeholder{
+    color: black;
+}
+.blog input:focus{
+    background-color: #f4bf2c;
+    outline: none;
+}
+.blog .btn{
+    font-size: 13px;
+}
+.blog .btn:hover{
+    background-color: black;
+}
