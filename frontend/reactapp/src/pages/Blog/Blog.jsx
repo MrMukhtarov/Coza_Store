@@ -1,8 +1,13 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./Blog.css";
 import Pagination from '@mui/material/Pagination';
 
 const Blog = () => {
+
+    useEffect(() => {
+        document.title = 'Blog';
+      });
+
   return (
     <section className="blog">
       <div className="container">
@@ -18,7 +23,7 @@ const Blog = () => {
               <h2>This is a Shopping WebSite</h2>
             </div>
           </div>
-          <div className="blog-content d-flex justify-content-between">
+          <div className="blog-content d-flex justify-content-between col-12">
             <div className="left col-lg-7"></div>
             <div className="right col-lg-4">
               <i className="fa fa-user"></i>
