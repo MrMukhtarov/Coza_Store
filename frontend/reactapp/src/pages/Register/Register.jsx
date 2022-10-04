@@ -7,7 +7,7 @@ const Register = () => {
     <div class="form-layout">
       <div class="form-left">
         <div class="logo">Coza Store</div>
-        <div class="info">Free form by Coza Store</div>
+        <div class="info">Register</div>
       </div>
       <form action="#" class="form-right">
         <div>

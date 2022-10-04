@@ -42,10 +42,10 @@ useEffect(() => {
                     <div className="col-lg-2 categories row flex-direction-column">
                         <h4>CATEGORIES</h4>
                         <div className='row'>
-                            <a href="/">Women</a>
-                            <a href="/">Men</a>
-                            <a href="/">Shoes</a>
-                            <a href="/">Watches</a>
+                            <NavLink to="/shop">Women</NavLink>
+                            <NavLink to="/">Men</NavLink>
+                            <NavLink to="/">Shoes</NavLink>
+                            <NavLink to="/">Watches</NavLink>
                         </div> 
                     </div>
                     <div className="col-lg-2 Help">
@@ -76,7 +76,7 @@ useEffect(() => {
                 </div>
                 <div className="bottom text-center">
                  <div className='text'>
-                    <p class="stext-107 cl6 txt-center">Copyright ©<script>document.write(new Date().getFullYear());</script>2022 All rights reserved | This template is made with by <a href="/" className='link'> Colorlib</a></p>
+                    <p class="stext-107 cl6 txt-center">Copyright © Mukhtarov Nicat</p>
                  </div>
                  <div className="img">
                     <img src="https://preview.colorlib.com/theme/fashe/images/icons/xpaypal.png.pagespeed.ic.5IRC94FTgA.webp" alt="" />
